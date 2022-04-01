@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour
 {
     public GameObject[] bloco;
     public GameObject mouseL, mouseR;
+    private float Horizontal, Vertical;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
@@ -18,10 +20,10 @@ public class GameController : MonoBehaviour
     {
         Vector3 mousePos = Input.mousePosition;
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-       // Vector2 direction = new Vector2(mousePos.x, mousePos.y);
         mouseL.transform.position = new Vector2(mousePos.x - 0.5f, mousePos.y); 
         mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
     }
+    /*
     public void Mudança(int x)
     {
         Vector2 posicao = bloco[x].transform.position;
@@ -31,13 +33,12 @@ public class GameController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        /*
         if(collision.gameObject.CompareTag("Bloco"))
         {
             bloco = collision.gameObject;
             Vector2 blocopostion = bloco.transform.position;
             bloco.transform.position = GameObject.Find("mouseL").GetCompenent<MouselScript>().blocopostion;
         }
-        */
     }
+    */
 }

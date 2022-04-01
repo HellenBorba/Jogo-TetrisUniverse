@@ -16,18 +16,17 @@ public class MouseLScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Fire1"))
+        {
+            bloco.transform.position = GameObject.Find("mouseR").GetComponent<MouseRScript>().blocoposition; //mudando o bloco de lugar.
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (collision.gameObject.CompareTag("Bloco"))
         {
-            if (collision.gameObject.CompareTag("Bloco"))
-            {
-                bloco = collision.gameObject;
-                blocoposition = bloco.transform.position;
-                bloco.transform.position = GameObject.Find("mouseL").GetComponent<MouseRScript>().blocoposition;
-            }
+            bloco = collision.gameObject; //salvando o bloco que desejo modificar.
+            blocoposition = bloco.transform.position; //salvando a posição do bloco.
         }
     }
 }
