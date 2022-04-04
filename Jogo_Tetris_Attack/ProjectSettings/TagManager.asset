@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Blocos
+    uniqueID: 3602569783
+    locked: 0
+  - name: Mouse
+    uniqueID: 872979247
+    locked: 0

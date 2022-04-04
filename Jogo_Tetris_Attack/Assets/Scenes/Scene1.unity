@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 16974282}
   - component: {fileID: 16974281}
   - component: {fileID: 16974280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Green (1)
   m_TagString: Bloco
   m_Icon: {fileID: 0}
@@ -204,8 +204,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -692397513
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.28234482, g: 1, b: 0, a: 1}
@@ -226,7 +226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16974279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.53, y: -4.48, z: 0}
+  m_LocalPosition: {x: -1.15, y: 0, z: 0}
   m_LocalScale: {x: 0.9900421, y: 1.001922, z: 0.7159589}
   m_Children: []
   m_Father: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 110333652}
   - component: {fileID: 110333651}
   - component: {fileID: 110333650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Green (2)
   m_TagString: Bloco
   m_Icon: {fileID: 0}
@@ -313,8 +313,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -692397513
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.28234482, g: 1, b: 0, a: 1}
@@ -335,8 +335,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110333649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.844, y: -4.48, z: 0}
-  m_LocalScale: {x: 0.9900421, y: 1.001922, z: 0.7159589}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 378769346}
   - component: {fileID: 378769345}
   - component: {fileID: 378769344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Red (2)
   m_TagString: Bloco
   m_Icon: {fileID: 0}
@@ -422,8 +422,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -692397513
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -444,8 +444,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378769343}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.742, y: -4.4767, z: 0}
-  m_LocalScale: {x: 0.9900421, y: 1.0019221, z: 0.7159589}
+  m_LocalPosition: {x: -2.3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 987627161}
   - component: {fileID: 987627160}
   - component: {fileID: 987627159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Pink (2)
   m_TagString: Bloco
   m_Icon: {fileID: 0}
@@ -731,8 +731,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -692397513
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 0, b: 0.9864793, a: 1}
@@ -753,8 +753,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987627158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.873, y: -4.472, z: 0}
-  m_LocalScale: {x: 0.9900421, y: 1.001922, z: 0.7159589}
+  m_LocalPosition: {x: -3.45, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -770,7 +770,7 @@ GameObject:
   - component: {fileID: 1052887147}
   - component: {fileID: 1052887146}
   - component: {fileID: 1052887148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Red (1)
   m_TagString: Bloco
   m_Icon: {fileID: 0}
@@ -814,8 +814,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -692397513
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -836,8 +836,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052887145}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.629, y: -4.4767, z: 0}
-  m_LocalScale: {x: 0.9900421, y: 1.0019221, z: 0.7159589}
+  m_LocalPosition: {x: 1.15, y: 0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -925,8 +925,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 872979247
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -947,7 +947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161993382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.163, y: 4.0728, z: 0}
+  m_LocalPosition: {x: -3.45, y: -0.04, z: -7.45}
   m_LocalScale: {x: 0.79492277, y: 0.722433, z: 0.96617734}
   m_Children: []
   m_Father: {fileID: 0}
@@ -965,8 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86cafe8e217c97548ab689749d112a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloco: {fileID: 0}
-  blocoposition: {x: 0, y: 0}
+  horizontal: 0
 --- !u!61 &1161993386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1025,7 +1024,7 @@ GameObject:
   - component: {fileID: 1288852976}
   - component: {fileID: 1288852975}
   - component: {fileID: 1288852974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Pink (1)
   m_TagString: Bloco
   m_Icon: {fileID: 0}
@@ -1095,8 +1094,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -692397513
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 0, b: 0.9864793, a: 1}
@@ -1117,8 +1116,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288852973}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.583, y: -4.472, z: 0}
-  m_LocalScale: {x: 0.9900421, y: 1.001922, z: 0.7159589}
+  m_LocalPosition: {x: 2.3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -1180,8 +1179,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 872979247
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1202,7 +1201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340622445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1628, y: 4.0752, z: 0}
+  m_LocalPosition: {x: 1.1628, y: 4.0752, z: -7.45}
   m_LocalScale: {x: 0.7998016, y: 0.7229905, z: 0.96617734}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1221,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloco: {fileID: 0}
-  blocoposition: {x: 0, y: 0}
+  blocoposition: {x: 0.21, y: 0}
 --- !u!61 &1340622449
 BoxCollider2D:
   m_ObjectHideFlags: 0

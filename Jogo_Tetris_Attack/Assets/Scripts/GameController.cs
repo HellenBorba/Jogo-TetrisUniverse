@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         mouseL.transform.position = new Vector2(mousePos.x - 0.5f, mousePos.y); 
-        mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
+       // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
     }
     /*
     public void Mudança(int x)

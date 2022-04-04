@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MouseRScript : MonoBehaviour
 {
-    public GameObject bloco;
-    public Vector2 blocoposition;
+    public float horizontal;
 
     // Start is called before the first frame update
     void Start()
@@ -16,17 +15,14 @@ public class MouseRScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        horizontal = Input.GetAxisRaw("Horizontal");
+        if(horizontal >= 0.9f && Input.GetButtonDown("Horizontal"))
         {
-            bloco.transform.position = GameObject.Find("mouseL").GetComponent<MouseLScript>().blocoposition;
+            gameObject.transform.position = new Vector3(transform.position.x + 1.15f, transform.position.y, transform.position.z);
         }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Bloco"))
+        else if(horizontal <= -0.9f && Input.GetButtonDown("Horizontal"))
         {
-            bloco = collision.gameObject;
-            blocoposition = bloco.transform.position;
+            gameObject.transform.position = new Vector3(transform.position.x - 1.15f, transform.position.y, transform.position.z);
         }
     }
 }

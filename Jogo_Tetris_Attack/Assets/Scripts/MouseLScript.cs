@@ -18,7 +18,7 @@ public class MouseLScript : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            bloco.transform.position = GameObject.Find("mouseR").GetComponent<MouseRScript>().blocoposition; //mudando o bloco de lugar.
+          //  bloco.transform.position = GameObject.Find("mouseR").GetComponent<MouseRScript>().blocoposition; //mudando o bloco de lugar.
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
