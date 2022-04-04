@@ -12,16 +12,18 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         Vector3 mousePos = Input.mousePosition;
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         mouseL.transform.position = new Vector2(mousePos.x - 0.5f, mousePos.y); 
        // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
+        */
     }
     /*
     public void Mudança(int x)
