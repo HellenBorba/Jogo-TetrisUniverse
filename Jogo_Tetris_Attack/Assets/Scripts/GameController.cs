@@ -7,15 +7,16 @@ public class GameController : MonoBehaviour
     public GameObject[] bloco;
     public GameObject mouseL, mouseR;
     private float Horizontal, Vertical;
-    public float speed;
-
-    // Start is called before the first frame update
+    //----------------------------------------------------------------------------------------------------------------------------------
+    public GameObject Objectspawn;
+    public Transform local;
+    //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-
+        GameObject tempPrefab = Instantiate(Objectspawn) as GameObject;
+        tempPrefab.transform.position = local.position;
     }
-
-    // Update is called once per frame
+    //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
         /*
@@ -25,6 +26,7 @@ public class GameController : MonoBehaviour
        // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
         */
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
     /*
     public void Mudança(int x)
     {

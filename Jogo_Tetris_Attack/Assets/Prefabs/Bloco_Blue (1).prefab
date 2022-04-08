@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7541834459543125319}
   - component: {fileID: 7541834459543125316}
   - component: {fileID: -7867745157466218268}
-  - component: {fileID: 662045178652177002}
+  - component: {fileID: 7761405067003162424}
   m_Layer: 0
   m_Name: Bloco_Blue (1)
   m_TagString: Bloco
@@ -126,13 +126,13 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &662045178652177002
+--- !u!114 &7761405067003162424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7541834459543125317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03839c50ee1c63b4db65fdb5938cca57, type: 3}
+  m_Script: {fileID: 11500000, guid: ef7ee14322adecf4e87cefc55d9457de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  time: 0
