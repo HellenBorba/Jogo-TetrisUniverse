@@ -8,12 +8,12 @@ public class GameController : MonoBehaviour
     public GameObject mouseL, mouseR;
     private float Horizontal, Vertical;
     //----------------------------------------------------------------------------------------------------------------------------------
-    public GameObject Objectspawn;
+    public GameObject BolBlue;
     public Transform local;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-        GameObject tempPrefab = Instantiate(Objectspawn) as GameObject;
+        GameObject tempPrefab = Instantiate(BolBlue) as GameObject;
         tempPrefab.transform.position = local.position;
     }
     //----------------------------------------------------------------------------------------------------------------------------------
