@@ -14,7 +14,11 @@ public class BlocoDescendo : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (time >= 1 && stop == 0)
+        if (stop == 1)
+        {
+            print("oi");
+        }
+        else if(time >= 1)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
             time = 0;
@@ -23,8 +27,8 @@ public class BlocoDescendo : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (gameObject.CompareTag("Col"))
-        { 
+        if (collision.gameObject.CompareTag("Col"))
+        {
             transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
             stop = 1;
         }
