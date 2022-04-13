@@ -146,3 +146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   stop: 0
+  Bol: {fileID: 6244830307489019786, guid: 96cd0266e91551245826d4febadef031, type: 3}
+  bola: {fileID: 0}
+  local: {fileID: 0}

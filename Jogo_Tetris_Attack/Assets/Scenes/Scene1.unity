@@ -338,15 +338,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc32d054c6187124495066b5bd51cae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloco:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  mouseL: {fileID: 1340622445}
-  mouseR: {fileID: 1161993382}
-  BolBlue: {fileID: 7541834459543125317, guid: 9a37ea6157088cc4e8e752c7a7830f87, type: 3}
-  local: {fileID: 1145613482}
+  Bol:
+  - {fileID: 7541834459543125317, guid: 9a37ea6157088cc4e8e752c7a7830f87, type: 3}
+  - {fileID: 6244830307489019786, guid: 96cd0266e91551245826d4febadef031, type: 3}
+  - {fileID: 3547347499377696716, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
+  - {fileID: 3739114670356937701, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
+  - {fileID: 6694737702945803295, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
+  local:
+  - {fileID: 1691046922}
+  - {fileID: 244356995}
+  - {fileID: 593381156}
+  - {fileID: 1154152404}
+  - {fileID: 349611463}
+  - {fileID: 1143479613}
+  - {fileID: 1145613482}
+  - {fileID: 1543086323}
+  - {fileID: 108405174}
+  - {fileID: 1363563325}
+  - {fileID: 804763274}
+  - {fileID: 1171515197}
+  - {fileID: 378725173}
 --- !u!4 &468055143
 Transform:
   m_ObjectHideFlags: 0

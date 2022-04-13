@@ -36,9 +36,9 @@ public class MouseRScript : MonoBehaviour
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bloco") || collision.gameObject.CompareTag("player"))
+        if (collision.gameObject.CompareTag("Bloco"))
         {
             bloco = collision.gameObject; //salvando o bloco que desejo modificar.
             blocoposition = bloco.transform.position; //salvando a posição do bloco.

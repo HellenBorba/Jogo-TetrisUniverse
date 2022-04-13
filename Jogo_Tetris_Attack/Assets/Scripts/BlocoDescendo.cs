@@ -27,7 +27,7 @@ public class BlocoDescendo : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Col"))
+        if (collision.gameObject.CompareTag("Col") || (collision.gameObject.CompareTag("Bloco")))
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
             stop = 1;
