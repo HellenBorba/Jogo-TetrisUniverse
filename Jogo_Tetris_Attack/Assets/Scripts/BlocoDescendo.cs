@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BlocoDescendo : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class BlocoDescendo : MonoBehaviour
         time += Time.deltaTime;
         if (stop == 1)
         {
-            print("oi");
+            print("Funciona");
         }
         else if(time >= 1)
         {
@@ -25,12 +26,19 @@ public class BlocoDescendo : MonoBehaviour
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Col") || (collision.gameObject.CompareTag("Bloco")))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
-            stop = 1;
+            if(stop == 0)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
+                stop = 1;
+            }
+        }
+        if(collision.gameObject.CompareTag("Nol"))
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }

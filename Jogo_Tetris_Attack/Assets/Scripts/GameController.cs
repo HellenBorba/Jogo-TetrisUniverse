@@ -1,11 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public enum Bloco
-{
-    blue, yellow, green, red, pink
-}
 public class GameController : MonoBehaviour
 {
     /*
@@ -13,25 +10,14 @@ public class GameController : MonoBehaviour
     public GameObject mouseL, mouseR;
     private float Horizontal, Vertical;
     */
-    //----------------------------------------------------------------------------------------------------------------------------------
+
     public GameObject[] Bol;
     public Transform[] local;
+
+    public float timer;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[1].position.x, local[1].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[2].position.x, local[2].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[3].position.x, local[3].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[5].position.x, local[5].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[6].position.x, local[6].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[7].position.x, local[7].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[8].position.x, local[8].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[9].position.x, local[9].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[10].position.x, local[10].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[11].position.x, local[11].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[12].position.x, local[12].position.y, 0), Quaternion.identity);
         /*
         GameObject tempPrefab = Instantiate(Bol[(int)Random.Range(0, 5)]) as GameObject;
         tempPrefab.transform.position = local[].position;
@@ -46,6 +32,12 @@ public class GameController : MonoBehaviour
         mouseL.transform.position = new Vector2(mousePos.x - 0.5f, mousePos.y); 
        // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
         */
+        timer += Time.deltaTime;  
+            if (timer >= 5)
+            {
+                Spawn();
+                timer = 0;
+            }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     /*
@@ -66,4 +58,19 @@ public class GameController : MonoBehaviour
         }
     }
     */
+    //----------------------------------------------------------------------------------------------------------------------------------
+    public void Spawn()
+    {
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[1].position.x, local[1].position.y, 0), Quaternion.identity);
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[2].position.x, local[2].position.y, 0), Quaternion.identity);
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[3].position.x, local[3].position.y, 0), Quaternion.identity);
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[5].position.x, local[5].position.y, 0), Quaternion.identity);
+        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[6].position.x, local[6].position.y, 0), Quaternion.identity);
+    }
+    public void Jogo()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
