@@ -7,6 +7,11 @@ TagManager:
   - Bloco
   - Col
   - Nol
+  - Blue
+  - Green
+  - Purple
+  - Red
+  - Yellow
   layers:
   - Default
   - TransparentFX

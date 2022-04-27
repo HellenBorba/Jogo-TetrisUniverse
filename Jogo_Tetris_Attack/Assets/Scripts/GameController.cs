@@ -69,8 +69,17 @@ public class GameController : MonoBehaviour
         Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[5].position.x, local[5].position.y, 0), Quaternion.identity);
         Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[6].position.x, local[6].position.y, 0), Quaternion.identity);
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
     public void Jogo()
     {
         SceneManager.LoadScene(0);
+    }
+    //----------------------------------------------------------------------------------------------------------------------------------
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == collision.gameObject.tag)
+        {
+
+        }
     }
 }

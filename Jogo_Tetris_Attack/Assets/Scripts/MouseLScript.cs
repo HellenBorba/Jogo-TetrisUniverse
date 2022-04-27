@@ -33,15 +33,20 @@ public class MouseLScript : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             bloco.transform.position = GameObject.Find("mouseR").GetComponent<MouseRScript>().blocoposition; //mudando o bloco de lugar.
+            if (bloco.tag == GameObject.Find("mouseR").GetComponent<MouseRScript>().bloco.tag)
+            {
+                Destroy(bloco);
+            }
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bloco"))
+        if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
             bloco = collision.gameObject; //salvando o bloco que desejo modificar.
             blocoposition = bloco.transform.position; //salvando a posição do bloco.
+            print(bloco.tag + "L");
         }
     }
 }

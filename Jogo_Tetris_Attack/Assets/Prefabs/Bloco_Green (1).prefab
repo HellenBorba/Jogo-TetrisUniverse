@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8008394126977554335}
   m_Layer: 0
   m_Name: Bloco_Green (1)
-  m_TagString: Bloco
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

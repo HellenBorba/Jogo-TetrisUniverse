@@ -17,7 +17,7 @@ public class BlocoDescendo : MonoBehaviour
         time += Time.deltaTime;
         if (stop == 1)
         {
-            print("Funciona");
+            //print("Funciona");
         }
         else if(time >= 1)
         {
@@ -28,7 +28,7 @@ public class BlocoDescendo : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Col") || (collision.gameObject.CompareTag("Bloco")))
+        if (collision.gameObject.CompareTag("Col") || (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow")))))))
         {
             if(stop == 0)
             {
