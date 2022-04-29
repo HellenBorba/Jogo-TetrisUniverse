@@ -36,7 +36,7 @@ public class BlocoDescendo : MonoBehaviour
                 stop = 1;
             }
         }
-        if(collision.gameObject.CompareTag("Nol"))
+        if (collision.gameObject.CompareTag("Nol"))
         {
             SceneManager.LoadScene(1);
         }

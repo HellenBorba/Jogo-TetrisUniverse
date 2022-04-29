@@ -74,12 +74,4 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == collision.gameObject.tag)
-        {
-
-        }
-    }
 }

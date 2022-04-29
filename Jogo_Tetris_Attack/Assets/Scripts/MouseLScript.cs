@@ -30,7 +30,7 @@ public class MouseLScript : MonoBehaviour
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
         }
         //----------------------------------------------------------------------------------------------------------------------------------
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire2"))
         {
             bloco.transform.position = GameObject.Find("mouseR").GetComponent<MouseRScript>().blocoposition; //mudando o bloco de lugar.
             if (bloco.tag == GameObject.Find("mouseR").GetComponent<MouseRScript>().bloco.tag)
