@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
+        Spawn();
         /*
         GameObject tempPrefab = Instantiate(Bol[(int)Random.Range(0, 5)]) as GameObject;
         tempPrefab.transform.position = local[].position;
@@ -33,7 +34,7 @@ public class GameController : MonoBehaviour
        // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
         */
         timer += Time.deltaTime;  
-            if (timer >= 5)
+            if (timer >= 10)
             {
                 Spawn();
                 timer = 0;

@@ -29,15 +29,6 @@ public class MouseRScript : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
         }
-        //----------------------------------------------------------------------------------------------------------------------------------
-        if (Input.GetButtonDown("Fire2"))
-        {
-            bloco.transform.position = GameObject.Find("mouseL").GetComponent<MouseLScript>().blocoposition; //mudando o bloco de lugar.
-            if (bloco.tag == GameObject.Find("mouseL").GetComponent<MouseLScript>().bloco.tag)
-            {
-                Destroy(bloco);
-            }
-        }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,7 +37,6 @@ public class MouseRScript : MonoBehaviour
         {
             bloco = collision.gameObject; //salvando o bloco que desejo modificar.
             blocoposition = bloco.transform.position; //salvando a posição do bloco.
-            print(bloco.tag + "R");
         }
     }
 }

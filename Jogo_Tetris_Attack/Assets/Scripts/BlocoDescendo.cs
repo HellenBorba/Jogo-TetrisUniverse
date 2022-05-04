@@ -5,11 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class BlocoDescendo : MonoBehaviour
 {
-    public float time, stop;
+    [SerializeField]
+    private float time, stop;
+
+    public MouseRScript MR;
+    public MouseLScript ML;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-        
+        MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
+        ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -23,6 +28,18 @@ public class BlocoDescendo : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
             time = 0;
+        }
+        //----------------------------------------------------------------------------------------------------------------------------------
+        if (Input.GetButtonDown("Fire2"))
+        {
+            MR.bloco.transform.position = ML.blocoposition;
+            ML.bloco.transform.position = MR.blocoposition;
+            if (MR.bloco.tag == ML.bloco.tag)
+            {
+                Destroy(ML.bloco);
+                Destroy(MR.bloco);
+            }
+            BlocoDestroy();
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -40,5 +57,11 @@ public class BlocoDescendo : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+    }
+    //----------------------------------------------------------------------------------------------------------------------------------
+    public void BlocoDestroy()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
+        stop = 0;
     }
 }
