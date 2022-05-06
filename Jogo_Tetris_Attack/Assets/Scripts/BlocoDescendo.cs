@@ -8,13 +8,15 @@ public class BlocoDescendo : MonoBehaviour
     [SerializeField]
     private float time, stop;
 
-    public MouseRScript MR;
-    public MouseLScript ML;
+    private GameController TM;
+    private MouseRScript MR;
+    private MouseLScript ML;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
         MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
         ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
+        TM = GameObject.Find("GameController").GetComponent<GameController>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -39,7 +41,7 @@ public class BlocoDescendo : MonoBehaviour
                 Destroy(ML.bloco);
                 Destroy(MR.bloco);
             }
-            BlocoDestroy();
+           // BlocoDestroy();
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -53,9 +55,10 @@ public class BlocoDescendo : MonoBehaviour
                 stop = 1;
             }
         }
+        //----------------------------------------------------------------------------------------------------------------------------------
         if (collision.gameObject.CompareTag("Nol"))
         {
-            SceneManager.LoadScene(1);
+            TM.tempoStop = false;
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------

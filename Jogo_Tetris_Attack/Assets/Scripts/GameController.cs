@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -13,8 +14,11 @@ public class GameController : MonoBehaviour
 
     public GameObject[] Bol;
     public Transform[] local;
-
-    public float timer;
+    public bool tempoStop;
+    public Text texto;
+   
+    private float timer, Points;
+    private BlocoDescendo BD;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
@@ -23,6 +27,7 @@ public class GameController : MonoBehaviour
         GameObject tempPrefab = Instantiate(Bol[(int)Random.Range(0, 5)]) as GameObject;
         tempPrefab.transform.position = local[].position;
         */
+        BD = GameObject.Find("Bloco_Blue (1)").GetComponent<BlocoDescendo>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -33,12 +38,15 @@ public class GameController : MonoBehaviour
         mouseL.transform.position = new Vector2(mousePos.x - 0.5f, mousePos.y); 
        // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
         */
-        timer += Time.deltaTime;  
-            if (timer >= 10)
-            {
-                Spawn();
-                timer = 0;
-            }
+        timer += Time.deltaTime;
+        if (timer >= 1)
+        {
+            Spawn();
+            timer = 0;
+        }
+       //----------------------------------------------------------------------------------------------------------------------------------
+        texto.text = ("Points: ");
+        
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     /*
@@ -62,13 +70,14 @@ public class GameController : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Spawn()
     {
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[1].position.x, local[1].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[2].position.x, local[2].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[3].position.x, local[3].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[5].position.x, local[5].position.y, 0), Quaternion.identity);
-        Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[6].position.x, local[6].position.y, 0), Quaternion.identity);
+        if (tempoStop == true)
+        {
+            Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
+            Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[1].position.x, local[1].position.y, 0), Quaternion.identity);
+            Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[2].position.x, local[2].position.y, 0), Quaternion.identity);
+            Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[3].position.x, local[3].position.y, 0), Quaternion.identity);
+            Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
+        }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Jogo()

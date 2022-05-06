@@ -6,7 +6,8 @@ public class MouseRScript : MonoBehaviour
 {
     public GameObject bloco;
     public Vector2 blocoposition;
-    public float horizontal, vertical;
+
+    private float horizontal, vertical;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
