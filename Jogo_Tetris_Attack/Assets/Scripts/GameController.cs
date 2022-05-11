@@ -11,23 +11,28 @@ public class GameController : MonoBehaviour
     public GameObject mouseL, mouseR;
     private float Horizontal, Vertical;
     */
-
+    public int points;
     public GameObject[] Bol;
     public Transform[] local;
     public bool tempoStop;
     public Text texto;
-   
-    private float timer, Points;
+
+    private float timer;
+    private MouseRScript MR;
+    private MouseLScript ML;
     private BlocoDescendo BD;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
+        MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
+        ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
+        BD = GameObject.Find("Bloquinho").GetComponent<BlocoDescendo>();
+        //----------------------------------------------------------------------------------------------------------------------------------
         Spawn();
         /*
         GameObject tempPrefab = Instantiate(Bol[(int)Random.Range(0, 5)]) as GameObject;
         tempPrefab.transform.position = local[].position;
         */
-        BD = GameObject.Find("Bloco_Blue (1)").GetComponent<BlocoDescendo>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -44,9 +49,21 @@ public class GameController : MonoBehaviour
             Spawn();
             timer = 0;
         }
-       //----------------------------------------------------------------------------------------------------------------------------------
-        texto.text = ("Points: ");
-        
+        //----------------------------------------------------------------------------------------------------------------------------------
+        texto.text = "Points: " + points;
+        //----------------------------------------------------------------------------------------------------------------------------------
+        if (Input.GetButtonDown("Fire2"))
+        {
+            MR.bloco.transform.position = ML.blocoposition;
+            ML.bloco.transform.position = MR.blocoposition;
+            if (MR.bloco.tag == ML.bloco.tag)
+            {
+                Destroy(ML.bloco);
+                Destroy(MR.bloco);
+                BD.BlocoDestroy();
+                points += 2;
+            }
+        }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     /*
@@ -78,10 +95,5 @@ public class GameController : MonoBehaviour
             Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[3].position.x, local[3].position.y, 0), Quaternion.identity);
             Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
         }
-    }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    public void Jogo()
-    {
-        SceneManager.LoadScene(0);
     }
 }
