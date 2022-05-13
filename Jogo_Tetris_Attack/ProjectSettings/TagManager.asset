@@ -13,6 +13,7 @@ TagManager:
   - Red
   - Yellow
   - Mol
+  - ColS
   layers:
   - Default
   - TransparentFX

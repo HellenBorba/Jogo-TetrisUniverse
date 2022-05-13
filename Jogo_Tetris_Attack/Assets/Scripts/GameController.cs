@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     private float Horizontal, Vertical;
     */
     public int points;
-    public GameObject[] Bol;
+    public GameObject[] Bol, Colisão;
     public Transform[] local;
     public bool tempoStop;
     public Text texto;
@@ -60,7 +60,6 @@ public class GameController : MonoBehaviour
             {
                 Destroy(ML.bloco);
                 Destroy(MR.bloco);
-                BD.BlocoDestroy();
                 points += 2;
             }
         }

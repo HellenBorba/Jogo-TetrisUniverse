@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BlocoDescendo : MonoBehaviour
 {
     [SerializeField]
-    private float time, stop;
+    public float time, stop;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -21,8 +21,8 @@ public class BlocoDescendo : MonoBehaviour
         if (stop == 1)
         {
 
-        }
-        else if (time >= 1)
+        } else
+        if (time >= 1)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
             time = 0;
@@ -45,10 +45,4 @@ public class BlocoDescendo : MonoBehaviour
             GM.tempoStop = false;
         }
     }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    public void BlocoDestroy()
-    {
-        transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
-        stop = 0;
-    }
-}
+} 
