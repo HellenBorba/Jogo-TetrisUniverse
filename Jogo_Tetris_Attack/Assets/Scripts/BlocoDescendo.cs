@@ -23,10 +23,10 @@ public class BlocoDescendo : MonoBehaviour
 
         } else
         if (time >= 1)
-        {
+          {
             transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
             time = 0;
-        }
+          }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,7 +39,6 @@ public class BlocoDescendo : MonoBehaviour
                 stop = 1;
             }
         }
-        //----------------------------------------------------------------------------------------------------------------------------------
         if (collision.gameObject.CompareTag("Nol"))
         {
             GM.tempoStop = false;

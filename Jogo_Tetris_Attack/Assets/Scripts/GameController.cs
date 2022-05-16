@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     private float Horizontal, Vertical;
     */
     public int points;
-    public GameObject[] Bol, Colisão;
+    public GameObject[] Bol;
     public Transform[] local;
     public bool tempoStop;
     public Text texto;
@@ -29,20 +29,10 @@ public class GameController : MonoBehaviour
         BD = GameObject.Find("Bloquinho").GetComponent<BlocoDescendo>();
         //----------------------------------------------------------------------------------------------------------------------------------
         Spawn();
-        /*
-        GameObject tempPrefab = Instantiate(Bol[(int)Random.Range(0, 5)]) as GameObject;
-        tempPrefab.transform.position = local[].position;
-        */
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        /*
-        Vector3 mousePos = Input.mousePosition;
-        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-        mouseL.transform.position = new Vector2(mousePos.x - 0.5f, mousePos.y); 
-       // mouseR.transform.position = new Vector2(mousePos.x + 0.5f, mousePos.y); 
-        */
         timer += Time.deltaTime;
         if (timer >= 1)
         {
@@ -64,25 +54,6 @@ public class GameController : MonoBehaviour
             }
         }
     }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    /*
-    public void Mudança(int x)
-    {
-        Vector2 posicao = bloco[x].transform.position;
-        Vector2 postion = bloco[2].transform.position;
-        bloco[2].transform.position = posicao;
-        bloco[x].transform.position = postion;
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.CompareTag("Bloco"))
-        {
-            bloco = collision.gameObject;
-            Vector2 blocopostion = bloco.transform.position;
-            bloco.transform.position = GameObject.Find("mouseL").GetCompenent<MouselScript>().blocopostion;
-        }
-    }
-    */
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Spawn()
     {

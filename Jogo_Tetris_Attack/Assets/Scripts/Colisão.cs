@@ -4,28 +4,39 @@ using UnityEngine;
 
 public class Colisão : MonoBehaviour
 {
+    public float timer;
+    public GameObject bloco;
+    public GameObject blocoCima;
+
     private GameController GM;
     private BlocoDescendo BD;
     // Start is called before the first frame update
     void Start()
     {
+        BD = GetComponentInParent<BlocoDescendo>();
         GM = GameObject.Find("GameController").GetComponent<GameController>();
-        BD = GameObject.Find("Bloquinho").GetComponent<BlocoDescendo>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void OnCollisionStay2D(Collision2D collision)
-    {
-        if (!collision.gameObject.CompareTag("Col") || (!collision.gameObject.CompareTag("Blue") || (!collision.gameObject.CompareTag("Purple") || (!collision.gameObject.CompareTag("Green") || (!collision.gameObject.CompareTag("Red") || (!collision.gameObject.CompareTag("Yellow")))))))
+        timer += Time.deltaTime;
+        if(timer >=0)
         {
-            if (transform.parent.GetComponent<BlocoDescendo>().stop == 1)
+            if (bloco)
             {
-                transform.parent.position = new Vector3(transform.parent.position.x, transform.parent.position.y - 1.15f, transform.parent.position.z);
+                if (blocoCima.GetComponent<Colisão>().bloco)
+                {
+                    blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                }
             }
+        }
+    }
+    public void OnTriggerStay2D (Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
+        {
+            bloco = collision.gameObject;
         }
     }
 }
