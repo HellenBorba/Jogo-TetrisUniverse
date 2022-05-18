@@ -20,13 +20,11 @@ public class GameController : MonoBehaviour
     private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
-    private BlocoDescendo BD;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
         MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
         ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
-        BD = GameObject.Find("Bloquinho").GetComponent<BlocoDescendo>();
         //----------------------------------------------------------------------------------------------------------------------------------
         Spawn();
     }
@@ -46,6 +44,7 @@ public class GameController : MonoBehaviour
         {
             MR.bloco.transform.position = ML.blocoposition;
             ML.bloco.transform.position = MR.blocoposition;
+
             if (MR.bloco.tag == ML.bloco.tag)
             {
                 Destroy(ML.bloco);
