@@ -16,9 +16,16 @@ public class Colisão : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer >= 1)
+        if(timer >= 6)
         {
-            BlocoCima();
+            if (!bloco)
+            {
+                if (blocoCima.GetComponent<Colisão>().bloco)
+                {
+                    blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                    blocoCima.GetComponent<Colisão>().bloco = null;
+                }
+            }
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -27,20 +34,6 @@ public class Colisão : MonoBehaviour
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
             bloco = collision.gameObject;
-        }
-    }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    public void BlocoCima()
-    {
-        if (!bloco)
-        {
-            blocoCima.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
-            /*
-             if (blocoCima.GetComponent<Colisão>().bloco)
-             {
-                   blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(bloco.transform.position.x, bloco.transform.position.y, bloco.transform.position.z);
-             }
-            */
         }
     }
 }

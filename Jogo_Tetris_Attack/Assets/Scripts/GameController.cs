@@ -44,7 +44,6 @@ public class GameController : MonoBehaviour
         {
             MR.bloco.transform.position = ML.blocoposition;
             ML.bloco.transform.position = MR.blocoposition;
-
             if (MR.bloco.tag == ML.bloco.tag)
             {
                 Destroy(ML.bloco);
