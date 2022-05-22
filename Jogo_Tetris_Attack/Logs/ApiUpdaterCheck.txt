@@ -648,3 +648,13 @@ C# parse time         : -1ms
 candidates check time : -1ms
 console write time    : -1ms
 
+[api-updater (non-obsolete-error-filter)] 22/05/2022 13:56:45 : Starting C:/Users/jully/OneDrive/Área de Trabalho/Hellen/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1353,2442ms
+moved types parse time: 101ms
+candidates parse time : 2ms
+C# parse time         : 1131ms
+candidates check time : 89ms
+console write time    : 1ms
+

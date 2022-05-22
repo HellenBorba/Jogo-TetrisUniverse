@@ -40,9 +40,9 @@ public class BlocoDescendo : MonoBehaviour
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
-        if (collision.gameObject.CompareTag("Nol"))
+        if(collision.gameObject.CompareTag("Nol"))
         {
-            GM.tempoStop = false;
+            GM.tempoStop = 2;
         }
     }
 } 

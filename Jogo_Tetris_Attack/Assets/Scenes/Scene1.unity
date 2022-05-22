@@ -1031,6 +1031,7 @@ MonoBehaviour:
   - {fileID: 108405174}
   tempoStop: 1
   texto: {fileID: 1452604893}
+  timer: 0
 --- !u!4 &468055143
 Transform:
   m_ObjectHideFlags: 0
@@ -2933,7 +2934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240208877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0863, y: 4.44, z: 89.69}
+  m_LocalPosition: {x: 0.0863, y: 4.4, z: 89.69}
   m_LocalScale: {x: 16.686924, y: 1.3021302, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,9 +14,10 @@ public class GameController : MonoBehaviour
     public int points;
     public GameObject[] Bol;
     public Transform[] local;
-    public bool tempoStop;
+    public int tempoStop;
     public Text texto;
 
+    [SerializeField]
     private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
@@ -55,7 +56,7 @@ public class GameController : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Spawn()
     {
-        if (tempoStop == true)
+        if (tempoStop == 1)
         {
             Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
             Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[1].position.x, local[1].position.y, 0), Quaternion.identity);
