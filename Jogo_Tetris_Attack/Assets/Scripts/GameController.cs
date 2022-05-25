@@ -65,4 +65,8 @@ public class GameController : MonoBehaviour
             Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
         }
     }
+    public void Scene()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
