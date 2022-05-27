@@ -16,9 +16,8 @@ public class GameController : MonoBehaviour
     public Transform[] local;
     public int tempoStop;
     public Text texto;
+    public float timer;
 
-    [SerializeField]
-    private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -52,6 +51,7 @@ public class GameController : MonoBehaviour
                 points += 2;
             }
         }
+        //----------------------------------------------------------------------------------------------------------------------------------
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Spawn()
@@ -65,6 +65,7 @@ public class GameController : MonoBehaviour
             Instantiate(Bol[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
         }
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
     public void Scene()
     {
         SceneManager.LoadScene(1);
