@@ -7,16 +7,18 @@ public class Colisão : MonoBehaviour
     public float timer;
     public GameObject bloco;
     public GameObject blocoCima;
+
+    private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-
+        GM = GameObject.Find("GameController").GetComponent<GameController>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer >= 6)
+        if (timer >= 6)
         {
             if (!bloco)
             {

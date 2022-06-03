@@ -404,10 +404,10 @@ RectTransform:
   m_Father: {fileID: 785772825}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: -100}
-  m_SizeDelta: {x: 160, y: 38.54}
+  m_AnchorMin: {x: 0.02054453, y: 0.27800003}
+  m_AnchorMax: {x: 0.22554453, y: 0.3592668}
+  m_AnchoredPosition: {x: -0.5, y: 1.0999985}
+  m_SizeDelta: {x: -2, y: -1.4599991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181277230
 MonoBehaviour:
@@ -1021,6 +1021,8 @@ MonoBehaviour:
   - {fileID: 3547347499377696716, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
   - {fileID: 3739114670356937701, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
   - {fileID: 6694737702945803295, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
+  col:
+  - {fileID: 1586506548}
   local:
   - {fileID: 349611463}
   - {fileID: 1143479613}
@@ -2109,10 +2111,10 @@ RectTransform:
   m_Father: {fileID: 785772825}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: 0.27000332}
-  m_SizeDelta: {x: 160, y: 95.02}
+  m_AnchorMin: {x: 0.02054453, y: 0.4}
+  m_AnchorMax: {x: 0.22554453, y: 0.58900005}
+  m_AnchoredPosition: {x: -0.65200806, y: 1.0099983}
+  m_SizeDelta: {x: -2, y: 2.0199966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &946343824
 MonoBehaviour:
@@ -3343,10 +3345,10 @@ RectTransform:
   m_Father: {fileID: 785772825}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: 96.270004}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.02054453, y: 0.64577997}
+  m_AnchorMax: {x: 0.22554453, y: 0.707}
+  m_AnchoredPosition: {x: -0.2999878, y: 3}
+  m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452604893
 MonoBehaviour:
@@ -3577,6 +3579,7 @@ GameObject:
   - component: {fileID: 1586506550}
   - component: {fileID: 1586506549}
   - component: {fileID: 1586506551}
+  - component: {fileID: 1586506552}
   m_Layer: 0
   m_Name: "Colis\xE3o (0)"
   m_TagString: Untagged
@@ -3625,6 +3628,22 @@ Transform:
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1586506551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586506548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d518c6b68e320e47a0085143060f9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  bloco: {fileID: 0}
+  blocoCima: {fileID: 1586506548}
+  GM: {fileID: 0}
+--- !u!114 &1586506552
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
