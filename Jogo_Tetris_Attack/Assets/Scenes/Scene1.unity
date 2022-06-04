@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 0
-  Bol:
+  Bola:
   - {fileID: 5382916535601549969, guid: 7e2502f8924742c40951183ebdeb27c9, type: 3}
   - {fileID: 6244830307489019786, guid: 96cd0266e91551245826d4febadef031, type: 3}
   - {fileID: 3547347499377696716, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
@@ -1029,7 +1029,6 @@ MonoBehaviour:
   - {fileID: 1145613482}
   - {fileID: 1543086323}
   - {fileID: 108405174}
-  tempoStop: 1
   texto: {fileID: 1452604893}
   timer: 0
 --- !u!4 &468055143

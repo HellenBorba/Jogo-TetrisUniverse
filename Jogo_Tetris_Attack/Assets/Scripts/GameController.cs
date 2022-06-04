@@ -14,12 +14,12 @@ public class GameController : MonoBehaviour
     public int points;
     public GameObject[] Bola, col;
     public Transform[] local;
-    public int tempoStop, contagem;
     public Text texto;
     public float timer;
 
     private MouseRScript MR;
     private MouseLScript ML;
+    private int contagem;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
