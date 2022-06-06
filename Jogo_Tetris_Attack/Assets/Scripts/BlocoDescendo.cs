@@ -39,9 +39,5 @@ public class BlocoDescendo : MonoBehaviour
                 stop = 1;
             }
         }
-        if (!GM.col[0].CompareTag("Blue") || (!GM.col[0].CompareTag("Purple") || (!GM.col[0].CompareTag("Green") || (!GM.col[0].CompareTag("Red") || (!GM.col[0].CompareTag("Yellow"))))))
-        {
-            GM.Spawn1();
-        }
     }
 } 
