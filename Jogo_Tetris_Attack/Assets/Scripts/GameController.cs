@@ -6,17 +6,13 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    /*
-    public GameObject[] bloco;
-    public GameObject mouseL, mouseR;
-    private float Horizontal, Vertical;
-    */
     public int points;
     public GameObject[] Bola, col;
     public Transform[] local;
     public Text texto;
-    public float timer;
 
+    [SerializeField]
+    private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
     private int contagem;
@@ -25,8 +21,6 @@ public class GameController : MonoBehaviour
     {
         MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
         ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
-        //----------------------------------------------------------------------------------------------------------------------------------
-        Spawn0();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Colisão : MonoBehaviour
 {
     public float timer;
-    public GameObject bloco;
-    public GameObject blocoCima;
+    public GameObject bloco, blocoCima;
+    public GameObject[] naoTem;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
