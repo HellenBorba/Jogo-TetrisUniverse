@@ -154,6 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1004575301}
   naoTem: []
@@ -228,6 +230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 428668500}
   naoTem: []
@@ -332,6 +336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1432347170}
   naoTem: []
@@ -525,6 +531,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 693485124}
   naoTem: []
@@ -589,6 +597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 51241742}
   naoTem: []
@@ -769,6 +779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1586506548}
   naoTem: []
@@ -803,6 +815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 940777415}
   naoTem: []
@@ -877,6 +891,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 286392764}
   naoTem: []
@@ -951,6 +967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 636016029}
   naoTem: []
@@ -1031,7 +1049,7 @@ MonoBehaviour:
   - {fileID: 3739114670356937701, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
   - {fileID: 6694737702945803295, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
   col:
-  - {fileID: 1586506548}
+  - {fileID: 922005824}
   local:
   - {fileID: 349611463}
   - {fileID: 1143479613}
@@ -1040,6 +1058,7 @@ MonoBehaviour:
   - {fileID: 108405174}
   texto: {fileID: 1452604893}
   timer: 0
+  contagem: 0
 --- !u!4 &468055143
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,6 +1144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1249222407}
   naoTem: []
@@ -1242,6 +1263,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 459467686}
   naoTem: []
@@ -1316,6 +1339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 43252683}
   naoTem: []
@@ -1390,6 +1415,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1131044739}
   naoTem: []
@@ -1464,6 +1491,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 896745890}
   naoTem: []
@@ -1578,6 +1607,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1514069192}
   naoTem: []
@@ -1714,6 +1745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 393768147}
   naoTem: []
@@ -1873,6 +1906,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1735107590}
   naoTem: []
@@ -1907,6 +1942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 124531930}
   naoTem: []
@@ -1963,7 +2000,7 @@ GameObject:
   - component: {fileID: 922005827}
   m_Layer: 0
   m_Name: "Colis\xE3o (5)"
-  m_TagString: Untagged
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2021,6 +2058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 2064364854}
   naoTem: []
@@ -2095,6 +2134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 409947984}
   naoTem: []
@@ -2188,6 +2229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 998916952}
   - component: {fileID: 998916951}
+  - component: {fileID: 998916953}
   m_Layer: 0
   m_Name: "Colis\xE3o (3)"
   m_TagString: Untagged
@@ -2235,6 +2277,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &998916953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998916950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  timerMax: 0
+  posTip: 2
+  bloco: {fileID: 0}
+  blocoCima: {fileID: 998916950}
+  naoTem: []
 --- !u!1 &1004575301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,6 +2326,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 893395556}
   naoTem: []
@@ -2340,6 +2402,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 455251305}
   naoTem: []
@@ -2414,6 +2478,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 484335316}
   naoTem: []
@@ -2548,6 +2614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 651802218}
   naoTem: []
@@ -2768,6 +2836,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1947173896}
   naoTem: []
@@ -3023,7 +3093,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240208877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0863, y: 4.4, z: 89.69}
+  m_LocalPosition: {x: 0.0863, y: 4.41, z: 89.69}
   m_LocalScale: {x: 16.686924, y: 1.3021302, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3100,6 +3170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1565685614}
   naoTem: []
@@ -3320,6 +3392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 922005824}
   naoTem: []
@@ -3412,6 +3486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514069194}
   - component: {fileID: 1514069193}
+  - component: {fileID: 1514069195}
   m_Layer: 0
   m_Name: "Colis\xE3o (2)"
   m_TagString: Untagged
@@ -3459,6 +3534,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1514069195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514069192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  timerMax: 0
+  posTip: 3
+  bloco: {fileID: 0}
+  blocoCima: {fileID: 1514069192}
+  naoTem: []
 --- !u!1 &1543086322
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,6 +3592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565685616}
   - component: {fileID: 1565685615}
+  - component: {fileID: 1565685617}
   m_Layer: 0
   m_Name: "Colis\xE3o (1)"
   m_TagString: Untagged
@@ -3539,13 +3633,31 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565685614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.15, y: 3.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1565685617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565685614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  timerMax: 0
+  posTip: 4
+  bloco: {fileID: 0}
+  blocoCima: {fileID: 1565685614}
+  naoTem: []
 --- !u!1 &1586506548
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,6 +3668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586506550}
   - component: {fileID: 1586506549}
+  - component: {fileID: 1586506551}
   m_Layer: 0
   m_Name: "Colis\xE3o (0)"
   m_TagString: Untagged
@@ -3603,6 +3716,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1586506551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586506548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  timerMax: 0
+  posTip: 5
+  bloco: {fileID: 0}
+  blocoCima: {fileID: 1586506548}
+  naoTem: []
 --- !u!1 &1735107590
 GameObject:
   m_ObjectHideFlags: 0
@@ -3674,6 +3805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 998916950}
   naoTem:
@@ -3709,6 +3842,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 1115928453}
   naoTem: []
@@ -3819,10 +3954,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2064364854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30989a05a618daf44a7030fc0de20011, type: 3}
+  m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CS: {fileID: 0}
+  timer: 0
+  timerMax: 0
+  posTip: 1
+  bloco: {fileID: 0}
+  blocoCima: {fileID: 2064364854}
+  naoTem: []
 --- !u!1 &2141279688
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,6 +3994,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  timerMax: 0
+  posTip: 0
   bloco: {fileID: 0}
   blocoCima: {fileID: 635509296}
   naoTem: []

@@ -15,7 +15,8 @@ public class GameController : MonoBehaviour
     private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
-    private int contagem;
+    [SerializeField]
+    public int contagem;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
@@ -30,7 +31,11 @@ public class GameController : MonoBehaviour
         {
             if (contagem < 30)
             {
-                Spawn0();
+                Spawn1();
+                Spawn2();
+                Spawn3();
+                Spawn4();
+                Spawn5();
                 timer = 0;
             }
         }
@@ -48,17 +53,7 @@ public class GameController : MonoBehaviour
                 points += 2;
             }
         }
-    }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    public void Spawn0()
-    {
-        Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
-        Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[1].position.x, local[1].position.y, 0), Quaternion.identity);
-        Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[2].position.x, local[2].position.y, 0), Quaternion.identity);
-        Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[3].position.x, local[3].position.y, 0), Quaternion.identity);
-        Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
-        contagem += 5;
-    }
+    }   
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Spawn1()
     {

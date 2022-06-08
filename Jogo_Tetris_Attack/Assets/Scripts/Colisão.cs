@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Colisão : MonoBehaviour
 {
-    public float timer;
+    public float timer, timerMax, posTip;
     public GameObject bloco, blocoCima;
     public GameObject[] naoTem;
 
@@ -13,19 +13,43 @@ public class Colisão : MonoBehaviour
     void Start()
     {
         GM = GameObject.Find("GameController").GetComponent<GameController>();
+        timerMax = 6;
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer >= 6)
+        if (timer >= timerMax)
         {
             if (!bloco)
             {
+                timer = 0;
+                timerMax = 1;
                 if (blocoCima.GetComponent<Colisão>().bloco)
                 {
                     blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                     blocoCima.GetComponent<Colisão>().bloco = null;
+                }
+                else if(blocoCima.GetComponent<Colisão>().bloco == false)
+                {
+                    switch(posTip)
+                    {
+                        case 1:
+                            GM.Spawn1();
+                            break;
+                        case 2:
+                            GM.Spawn2();
+                            break;
+                        case 3:
+                            GM.Spawn3();
+                            break;
+                        case 4:
+                            GM.Spawn4();
+                            break;
+                        case 5:
+                            GM.Spawn5();
+                            break;
+                    }
                 }
             }
         }
