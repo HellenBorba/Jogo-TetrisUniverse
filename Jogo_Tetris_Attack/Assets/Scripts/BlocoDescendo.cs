@@ -39,9 +39,5 @@ public class BlocoDescendo : MonoBehaviour
                 stop = 1;
             }
         }
-        if(collision.gameObject.CompareTag("Nol"))
-        {
-            GM.contagem = 30;
-        }
     }
 } 

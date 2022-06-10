@@ -6,14 +6,13 @@ public class Colisão : MonoBehaviour
 {
     public float timer, timerMax, posTip;
     public GameObject bloco, blocoCima;
-    public GameObject[] naoTem;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
         GM = GameObject.Find("GameController").GetComponent<GameController>();
-        timerMax = 6;
+        timerMax = 2;
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -30,7 +29,8 @@ public class Colisão : MonoBehaviour
                     blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                     blocoCima.GetComponent<Colisão>().bloco = null;
                 }
-                else if(blocoCima.GetComponent<Colisão>().bloco == false)
+                //----------------------------------------------------------------------------------------------------------------------------------
+                else if (blocoCima.GetComponent<Colisão>().bloco == false)
                 {
                     switch(posTip)
                     {

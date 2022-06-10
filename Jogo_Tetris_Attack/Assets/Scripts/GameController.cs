@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public int points;
     public GameObject[] Bola, col;
     public Transform[] local;
     public Text texto;
@@ -16,7 +15,7 @@ public class GameController : MonoBehaviour
     private MouseRScript MR;
     private MouseLScript ML;
     [SerializeField]
-    public int contagem;
+    private int points;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
@@ -26,20 +25,6 @@ public class GameController : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= 1)
-        {
-            if (contagem < 30)
-            {
-                Spawn1();
-                Spawn2();
-                Spawn3();
-                Spawn4();
-                Spawn5();
-                timer = 0;
-            }
-        }
-        //----------------------------------------------------------------------------------------------------------------------------------
         texto.text = "Points: " + points;
         //----------------------------------------------------------------------------------------------------------------------------------
         if (Input.GetButtonDown("Fire2"))
