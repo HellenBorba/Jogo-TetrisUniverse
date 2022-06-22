@@ -20,6 +20,16 @@ public class Colisão : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= timerMax)
         {
+            if(bloco && blocoCima)
+            {
+                if (blocoCima.GetComponent<Colisão>().bloco)
+                {
+                    if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag)
+                    {
+
+                    }
+                }
+            }
             if (!bloco)
             {
                 timer = 0;
