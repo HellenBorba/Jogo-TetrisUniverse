@@ -5,7 +5,7 @@ using UnityEngine;
 public class Colisão : MonoBehaviour
 {
     public float timer, timerMax, posTip;
-    public GameObject bloco, blocoCima;
+    public GameObject blocoDesce, blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -20,29 +20,47 @@ public class Colisão : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= timerMax)
         {
-            if(bloco && blocoCima)
+            //----------------------------------------------------------------------------------------------------------------------------------
+            if (bloco && blocoCima && blocoBaixo)
             {
-                if (blocoCima.GetComponent<Colisão>().bloco)
+                if (blocoCima.GetComponent<Colisão>().bloco && blocoBaixo.GetComponent<Colisão>().bloco)
                 {
-                    if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag)
+                    if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoBaixo.GetComponent<Colisão>().bloco.tag == bloco.tag)
                     {
-
+                        Destroy(blocoCima.GetComponent<Colisão>().bloco);
+                        Destroy(bloco);
+                        Destroy(blocoBaixo.GetComponent<Colisão>().bloco);
+                        GM.points += 3;
                     }
                 }
             }
+            if(bloco && blocoDireita && blocoEsquerda)
+            {
+                if (blocoEsquerda.GetComponent<Colisão>().bloco && blocoDireita.GetComponent<Colisão>().bloco)
+                {
+                    if (blocoEsquerda.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colisão>().bloco.tag == bloco.tag)
+                    {
+                        Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
+                        Destroy(bloco);
+                        Destroy(blocoDireita.GetComponent<Colisão>().bloco);
+                        GM.points += 3;
+                    }
+                }
+            }
+            //----------------------------------------------------------------------------------------------------------------------------------
             if (!bloco)
             {
                 timer = 0;
                 timerMax = 1;
-                if (blocoCima.GetComponent<Colisão>().bloco)
+                if (blocoDesce.GetComponent<Colisão>().bloco)
                 {
-                    blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-                    blocoCima.GetComponent<Colisão>().bloco = null;
+                    blocoDesce.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                    blocoDesce.GetComponent<Colisão>().bloco = null;
                 }
                 //----------------------------------------------------------------------------------------------------------------------------------
-                else if (blocoCima.GetComponent<Colisão>().bloco == false)
+                else if (blocoDesce.GetComponent<Colisão>().bloco == false)
                 {
-                    switch(posTip)
+                    switch (posTip)
                     {
                         case 1:
                             GM.Spawn1();

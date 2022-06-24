@@ -9,13 +9,12 @@ public class GameController : MonoBehaviour
     public GameObject[] Bola;
     public Transform[] local;
     public Text texto;
+    public int points;
 
     [SerializeField]
     private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
-    [SerializeField]
-    private int points;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
@@ -31,12 +30,6 @@ public class GameController : MonoBehaviour
         {
             MR.bloco.transform.position = ML.blocoposition;
             ML.bloco.transform.position = MR.blocoposition;
-            if (MR.bloco.tag == ML.bloco.tag)
-            {
-                Destroy(ML.bloco);
-                Destroy(MR.bloco);
-                points += 2;
-            }
         }
     }   
     //----------------------------------------------------------------------------------------------------------------------------------
