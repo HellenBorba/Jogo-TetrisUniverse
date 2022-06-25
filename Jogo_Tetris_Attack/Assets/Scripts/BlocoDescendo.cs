@@ -7,13 +7,6 @@ public class BlocoDescendo : MonoBehaviour
 {
     [SerializeField]
     public float time, stop;
-
-    private GameController GM;
-    //----------------------------------------------------------------------------------------------------------------------------------
-    void Start()
-    {
-        GM = GameObject.Find("GameController").GetComponent<GameController>();
-    }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
@@ -22,7 +15,7 @@ public class BlocoDescendo : MonoBehaviour
         {
 
         } else
-        if (time >= 0.8)
+        if (time >= 1)
           {
             transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
             time = 0;

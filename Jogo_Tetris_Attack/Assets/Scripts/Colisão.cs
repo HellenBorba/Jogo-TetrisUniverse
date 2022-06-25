@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class Colisão : MonoBehaviour
 {
-    public float timer, timerMax, posTip;
+    public float timer, timerMax, posTip, tempodescer;
     public GameObject blocoDesce, blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
 
     private GameController GM;
+    private int id;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
         GM = GameObject.Find("GameController").GetComponent<GameController>();
         timerMax = 2;
+        id = 5;
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
+        tempodescer += Time.deltaTime;
         timer += Time.deltaTime;
         if (timer >= timerMax)
         {
@@ -64,19 +67,34 @@ public class Colisão : MonoBehaviour
                     switch (posTip)
                     {
                         case 1:
-                            GM.Spawn1();
+                            if (tempodescer >= 5)
+                            {
+                                GM.Spawn1();
+                            }
                             break;
                         case 2:
-                            GM.Spawn2();
+                            if (tempodescer >= 5)
+                            {
+                                GM.Spawn2();
+                            }
                             break;
                         case 3:
-                            GM.Spawn3();
+                            if (tempodescer >= 5)
+                            {
+                                GM.Spawn3();
+                            }
                             break;
                         case 4:
-                            GM.Spawn4();
+                            if (tempodescer >= 5)
+                            {
+                                GM.Spawn4();
+                            }
                             break;
                         case 5:
-                            GM.Spawn5();
+                            if (tempodescer >= 5)
+                            {
+                                GM.Spawn5();
+                            }
                             break;
                     }
                 }

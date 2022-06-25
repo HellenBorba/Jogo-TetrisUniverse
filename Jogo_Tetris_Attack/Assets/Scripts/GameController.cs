@@ -10,7 +10,6 @@ public class GameController : MonoBehaviour
     public Transform[] local;
     public Text texto;
     public int points;
-    public GameObject parede;
 
     [SerializeField]
     private float timer;
@@ -21,10 +20,25 @@ public class GameController : MonoBehaviour
     {
         MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
         ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
+        Spawn1();
+        Spawn2();
+        Spawn3();
+        Spawn4();
+        Spawn5();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
+        timer += Time.deltaTime;
+        if(timer >= 1)
+        {
+            Spawn1();
+            Spawn2();
+            Spawn3();
+            Spawn4();
+            Spawn5();
+            timer = 0;
+        }
         texto.text = "Points: " + points;
         //----------------------------------------------------------------------------------------------------------------------------------
         if (Input.GetButtonDown("Fire2"))
