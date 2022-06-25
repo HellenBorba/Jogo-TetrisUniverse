@@ -7,10 +7,11 @@ public class MouseLScript : MonoBehaviour
     public GameObject bloco;
     public Vector2 blocoposition;
 
+    private float maxX, minX, minY, maxY;
     private float horizontal, vertical;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
-    {
+    { 
         horizontal = Input.GetAxisRaw("Horizontal");
         if (horizontal >= 0.9f && Input.GetButtonDown("Horizontal"))
         {
@@ -30,6 +31,14 @@ public class MouseLScript : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
         }
+        //----------------------------------------------------------------------------------------------------------------------------------
+        minX = -2.3f;
+        maxX = 1.15f;
+
+        minY = -3.59f;
+        maxY = 3.31f;
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, minX, maxX),
+                                        Mathf.Clamp(transform.position.y, minY, maxY));
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)

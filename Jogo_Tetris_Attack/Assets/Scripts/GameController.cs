@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public Transform[] local;
     public Text texto;
     public int points;
+    public GameObject parede;
 
     [SerializeField]
     private float timer;

@@ -22,7 +22,7 @@ public class BlocoDescendo : MonoBehaviour
         {
 
         } else
-        if (time >= 1)
+        if (time >= 0.8)
           {
             transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
             time = 0;

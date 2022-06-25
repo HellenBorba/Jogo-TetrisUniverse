@@ -34,7 +34,8 @@ public class Colisão : MonoBehaviour
                     }
                 }
             }
-            if(bloco && blocoDireita && blocoEsquerda)
+            //----------------------------------------------------------------------------------------------------------------------------------
+            if (bloco && blocoDireita && blocoEsquerda)
             {
                 if (blocoEsquerda.GetComponent<Colisão>().bloco && blocoDireita.GetComponent<Colisão>().bloco)
                 {

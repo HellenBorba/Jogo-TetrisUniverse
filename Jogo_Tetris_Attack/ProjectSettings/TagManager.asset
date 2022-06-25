@@ -15,6 +15,7 @@ TagManager:
   - Mol
   - ColS
   - 1
+  - parede
   layers:
   - Default
   - TransparentFX

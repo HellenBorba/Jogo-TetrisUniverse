@@ -7,6 +7,7 @@ public class MouseRScript : MonoBehaviour
     public GameObject bloco;
     public Vector2 blocoposition;
 
+    private float minX, maxX, maxY, minY;
     private float horizontal, vertical;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -30,6 +31,14 @@ public class MouseRScript : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
         }
+        //----------------------------------------------------------------------------------------------------------------------------------
+        minX = -1.15f;
+        maxX = 2.3f;
+
+        minY = -3.59f;
+        maxY = 3.31f;
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, minX, maxX),
+                                        Mathf.Clamp(transform.position.y, minY, maxY));
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)
