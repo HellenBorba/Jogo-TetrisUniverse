@@ -5,16 +5,16 @@ using UnityEngine;
 public class Colisão : MonoBehaviour
 {
     public float timer, timerMax, posTip, tempodescer;
-    public GameObject blocoDesce, blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
+    public GameObject blocoSobe, blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
 
-    private GameController GM;
+    [SerializeField]
     private int id;
+    private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
         GM = GameObject.Find("GameController").GetComponent<GameController>();
-        timerMax = 2;
-        id = 5;
+        timerMax = 4;
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -56,45 +56,35 @@ public class Colisão : MonoBehaviour
             {
                 timer = 0;
                 timerMax = 1;
-                if (blocoDesce.GetComponent<Colisão>().bloco)
+                if (blocoSobe.GetComponent<Colisão>().bloco)
                 {
-                    blocoDesce.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-                    blocoDesce.GetComponent<Colisão>().bloco = null;
+                    if (id == 1)
+                    {
+                        blocoSobe.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                        blocoSobe.GetComponent<Colisão>().bloco = null;
+                        tempodescer = 0;
+                    }
                 }
                 //----------------------------------------------------------------------------------------------------------------------------------
-                else if (blocoDesce.GetComponent<Colisão>().bloco == false)
+                if (blocoSobe.GetComponent<Colisão>().bloco == false)
                 {
                     switch (posTip)
                     {
                         case 1:
-                            if (tempodescer >= 5)
-                            {
-                                GM.Spawn1();
-                            }
+                            GM.Spawn1();
+                            id += 1;
                             break;
                         case 2:
-                            if (tempodescer >= 5)
-                            {
-                                GM.Spawn2();
-                            }
+                            GM.Spawn2();
                             break;
                         case 3:
-                            if (tempodescer >= 5)
-                            {
-                                GM.Spawn3();
-                            }
+                            GM.Spawn3();
                             break;
                         case 4:
-                            if (tempodescer >= 5)
-                            {
-                                GM.Spawn4();
-                            }
+                            GM.Spawn4();
                             break;
                         case 5:
-                            if (tempodescer >= 5)
-                            {
-                                GM.Spawn5();
-                            }
+                            GM.Spawn5();
                             break;
                     }
                 }

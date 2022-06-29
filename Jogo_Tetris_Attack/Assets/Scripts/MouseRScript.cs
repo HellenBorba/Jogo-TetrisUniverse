@@ -7,8 +7,7 @@ public class MouseRScript : MonoBehaviour
     public GameObject bloco;
     public Vector2 blocoposition;
 
-    private float minX, maxX, maxY, minY;
-    private float horizontal, vertical;
+    private float horizontal, vertical, minX, maxX, maxY, minY;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {

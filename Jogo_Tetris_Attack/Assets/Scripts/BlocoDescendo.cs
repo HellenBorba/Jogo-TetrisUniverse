@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BlocoDescendo : MonoBehaviour
 {
     [SerializeField]
-    public float time, stop;
+    private float time, stop;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
@@ -15,20 +15,20 @@ public class BlocoDescendo : MonoBehaviour
         {
 
         } else
-        if (time >= 1)
+        if (time >= 10)
           {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
             time = 0;
           }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Col") || (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow")))))))
+        if (collision.gameObject.CompareTag("Col") || collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
             if (stop == 0)
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
+                transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
                 stop = 1;
             }
         }
