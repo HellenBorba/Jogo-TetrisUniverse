@@ -15,7 +15,7 @@ public class BlocoDescendo : MonoBehaviour
         {
 
         } else
-        if (time >= 10)
+        if (time >= 1)
           {
             transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
             time = 0;

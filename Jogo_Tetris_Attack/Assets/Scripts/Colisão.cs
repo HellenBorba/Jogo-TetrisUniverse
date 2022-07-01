@@ -19,7 +19,6 @@ public class Colisão : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        tempodescer += Time.deltaTime;
         timer += Time.deltaTime;
         if (timer >= timerMax)
         {
@@ -58,11 +57,10 @@ public class Colisão : MonoBehaviour
                 timerMax = 1;
                 if (blocoSobe.GetComponent<Colisão>().bloco)
                 {
-                    if (id == 1)
+                    if (!blocoCima)
                     {
                         blocoSobe.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                         blocoSobe.GetComponent<Colisão>().bloco = null;
-                        tempodescer = 0;
                     }
                 }
                 //----------------------------------------------------------------------------------------------------------------------------------
@@ -76,15 +74,19 @@ public class Colisão : MonoBehaviour
                             break;
                         case 2:
                             GM.Spawn2();
+                            id += 1;
                             break;
                         case 3:
                             GM.Spawn3();
+                            id += 1;
                             break;
                         case 4:
                             GM.Spawn4();
+                            id += 1;
                             break;
                         case 5:
                             GM.Spawn5();
+                            id += 1;
                             break;
                     }
                 }
