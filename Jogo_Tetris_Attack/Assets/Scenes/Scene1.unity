@@ -156,8 +156,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 635509296}
+  blocoSobe: {fileID: 43252683}
   blocoEsquerda: {fileID: 896745890}
   blocoBaixo: {fileID: 635509296}
   bloco: {fileID: 0}
@@ -236,8 +235,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 393768147}
+  blocoSobe: {fileID: 51241742}
   blocoEsquerda: {fileID: 636016029}
   blocoBaixo: {fileID: 393768147}
   bloco: {fileID: 0}
@@ -346,8 +344,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 896745890}
+  blocoSobe: {fileID: 124531930}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 896745890}
   bloco: {fileID: 0}
@@ -466,8 +463,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 455251305}
+  blocoSobe: {fileID: 286392764}
   blocoEsquerda: {fileID: 893395556}
   blocoBaixo: {fileID: 455251305}
   bloco: {fileID: 0}
@@ -618,8 +614,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 841351625}
+  blocoSobe: {fileID: 393768147}
   blocoEsquerda: {fileID: 459467686}
   blocoBaixo: {fileID: 841351625}
   bloco: {fileID: 0}
@@ -804,8 +799,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 940777415}
+  blocoSobe: {fileID: 409947984}
   blocoEsquerda: {fileID: 1249222407}
   blocoBaixo: {fileID: 940777415}
   bloco: {fileID: 0}
@@ -844,8 +838,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 51241742}
+  blocoSobe: {fileID: 428668500}
   blocoEsquerda: {fileID: 1131044739}
   blocoBaixo: {fileID: 51241742}
   bloco: {fileID: 0}
@@ -924,8 +917,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1115928453}
+  blocoSobe: {fileID: 455251305}
   blocoEsquerda: {fileID: 1004575301}
   blocoBaixo: {fileID: 1115928453}
   bloco: {fileID: 0}
@@ -1004,8 +996,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 571392436}
+  blocoSobe: {fileID: 459467686}
   blocoEsquerda: {fileID: 1947173896}
   blocoBaixo: {fileID: 571392436}
   bloco: {fileID: 0}
@@ -1182,8 +1173,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1131044739}
+  blocoSobe: {fileID: 484335316}
   blocoEsquerda: {fileID: 286392764}
   blocoBaixo: {fileID: 1131044739}
   bloco: {fileID: 0}
@@ -1305,7 +1295,6 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 4
-  tempodescer: 0
   blocoSobe: {fileID: 571392436}
   blocoEsquerda: {fileID: 1178259234}
   blocoBaixo: {fileID: 0}
@@ -1385,8 +1374,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 2141279688}
+  blocoSobe: {fileID: 635509296}
   blocoEsquerda: {fileID: 651802218}
   blocoBaixo: {fileID: 2141279688}
   bloco: {fileID: 0}
@@ -1465,8 +1453,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 459467686}
+  blocoSobe: {fileID: 636016029}
   blocoEsquerda: {fileID: 1115928453}
   blocoBaixo: {fileID: 459467686}
   bloco: {fileID: 0}
@@ -1545,8 +1532,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1146236917}
+  blocoSobe: {fileID: 651802218}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1146236917}
   bloco: {fileID: 0}
@@ -1665,8 +1651,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 286392764}
+  blocoSobe: {fileID: 693485124}
   blocoEsquerda: {fileID: 1735107590}
   blocoBaixo: {fileID: 286392764}
   bloco: {fileID: 0}
@@ -1806,7 +1791,6 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 5
-  tempodescer: 0
   blocoSobe: {fileID: 841351625}
   blocoEsquerda: {fileID: 571392436}
   blocoBaixo: {fileID: 0}
@@ -2035,8 +2019,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1004575301}
+  blocoSobe: {fileID: 893395556}
   blocoEsquerda: {fileID: 1432347170}
   blocoBaixo: {fileID: 1004575301}
   bloco: {fileID: 0}
@@ -2075,8 +2058,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 651802218}
+  blocoSobe: {fileID: 896745890}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 651802218}
   bloco: {fileID: 0}
@@ -2195,8 +2177,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1432347170}
+  blocoSobe: {fileID: 922005824}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1432347170}
   bloco: {fileID: 0}
@@ -2275,8 +2256,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 428668500}
+  blocoSobe: {fileID: 940777415}
   blocoEsquerda: {fileID: 484335316}
   blocoBaixo: {fileID: 428668500}
   bloco: {fileID: 0}
@@ -2434,8 +2414,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1735107590}
+  blocoSobe: {fileID: 998916950}
   blocoEsquerda: {fileID: 2064364854}
   blocoBaixo: {fileID: 1735107590}
   bloco: {fileID: 0}
@@ -2474,8 +2453,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 43252683}
+  blocoSobe: {fileID: 1004575301}
   blocoEsquerda: {fileID: 124531930}
   blocoBaixo: {fileID: 43252683}
   bloco: {fileID: 0}
@@ -2554,8 +2532,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1947173896}
+  blocoSobe: {fileID: 1115928453}
   blocoEsquerda: {fileID: 43252683}
   blocoBaixo: {fileID: 1947173896}
   bloco: {fileID: 0}
@@ -2634,8 +2611,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 636016029}
+  blocoSobe: {fileID: 1131044739}
   blocoEsquerda: {fileID: 455251305}
   blocoBaixo: {fileID: 636016029}
   bloco: {fileID: 0}
@@ -2774,7 +2750,6 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 1
-  tempodescer: 0
   blocoSobe: {fileID: 1146236917}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 0}
@@ -3000,7 +2975,6 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 3
-  tempodescer: 0
   blocoSobe: {fileID: 1178259234}
   blocoEsquerda: {fileID: 2141279688}
   blocoBaixo: {fileID: 0}
@@ -3120,8 +3094,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 484335316}
+  blocoSobe: {fileID: 1249222407}
   blocoEsquerda: {fileID: 693485124}
   blocoBaixo: {fileID: 484335316}
   bloco: {fileID: 0}
@@ -3346,8 +3319,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 124531930}
+  blocoSobe: {fileID: 1432347170}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 124531930}
   bloco: {fileID: 0}
@@ -3505,8 +3477,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 693485124}
+  blocoSobe: {fileID: 1514069192}
   blocoEsquerda: {fileID: 998916950}
   blocoBaixo: {fileID: 693485124}
   bloco: {fileID: 0}
@@ -3615,8 +3586,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1249222407}
+  blocoSobe: {fileID: 1565685614}
   blocoEsquerda: {fileID: 1514069192}
   blocoBaixo: {fileID: 1249222407}
   bloco: {fileID: 0}
@@ -3695,8 +3665,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 409947984}
+  blocoSobe: {fileID: 1586506548}
   blocoEsquerda: {fileID: 1565685614}
   blocoBaixo: {fileID: 409947984}
   bloco: {fileID: 0}
@@ -3775,8 +3744,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 893395556}
+  blocoSobe: {fileID: 1735107590}
   blocoEsquerda: {fileID: 922005824}
   blocoBaixo: {fileID: 893395556}
   bloco: {fileID: 0}
@@ -3815,8 +3783,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 1178259234}
+  blocoSobe: {fileID: 1947173896}
   blocoEsquerda: {fileID: 635509296}
   blocoBaixo: {fileID: 1178259234}
   bloco: {fileID: 0}
@@ -3935,8 +3902,7 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 0
-  tempodescer: 0
-  blocoSobe: {fileID: 922005824}
+  blocoSobe: {fileID: 2064364854}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 922005824}
   bloco: {fileID: 0}
@@ -3975,7 +3941,6 @@ MonoBehaviour:
   timer: 0
   timerMax: 0
   posTip: 2
-  tempodescer: 0
   blocoSobe: {fileID: 2141279688}
   blocoEsquerda: {fileID: 1146236917}
   blocoBaixo: {fileID: 0}
