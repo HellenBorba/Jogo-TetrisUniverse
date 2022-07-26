@@ -17,6 +17,7 @@ public class Colisão : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
+        /*
         if (bloco && blocoCima && blocoBaixo)
         {
             if (blocoCima.GetComponent<Colisão>().bloco && blocoBaixo.GetComponent<Colisão>().bloco)
@@ -44,35 +45,39 @@ public class Colisão : MonoBehaviour
                 }
             }
         }
+        */
         //----------------------------------------------------------------------------------------------------------------------------------
-        timer += Time.deltaTime;
-        if (timer >= timerMax)
+        //timer += Time.deltaTime;
+        //if (timer >= timerMax)
+        //timer = 0;
+        //timerMax = 1;
+        if (!bloco)
         {
-            timer = 0;
-            timerMax = 1;
-            if (!bloco)
+            if (blocoBaixo.GetComponent<Colisão>().bloco)
             {
-                blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                blocoBaixo.GetComponent<Colisão>().bloco.transform.position = transform.position = transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 blocoBaixo.GetComponent<Colisão>().bloco = null;
-                //----------------------------------------------------------------------------------------------------------------------------------
-                switch (posTip)
-                {
-                    case 1:
-                        GM.Spawn1();
-                        break;
-                    case 2:
-                        GM.Spawn2();
-                        break;
-                    case 3:
-                        GM.Spawn3();
-                        break;
-                    case 4:
-                        GM.Spawn4();
-                        break;
-                    case 5:
-                        GM.Spawn5();
-                        break;
-                }
+            }
+        }
+        else
+        {
+            switch (posTip)
+            {
+                case 1:
+                    GM.Spawn1();
+                    break;
+                case 2:
+                    GM.Spawn2();
+                    break;
+                case 3:
+                    GM.Spawn3();
+                    break;
+                case 4:
+                    GM.Spawn4();
+                    break;
+                case 5:
+                    GM.Spawn5();
+                    break;
             }
         }
     }
