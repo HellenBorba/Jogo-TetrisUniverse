@@ -154,9 +154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 43252683}
+  blocoBaixo2: {fileID: 635509296}
   blocoEsquerda: {fileID: 896745890}
   blocoBaixo: {fileID: 635509296}
   bloco: {fileID: 0}
@@ -233,9 +233,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 51241742}
+  blocoBaixo2: {fileID: 393768147}
   blocoEsquerda: {fileID: 636016029}
   blocoBaixo: {fileID: 393768147}
   bloco: {fileID: 0}
@@ -342,9 +342,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 124531930}
+  blocoBaixo2: {fileID: 896745890}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 896745890}
   bloco: {fileID: 0}
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 286392764}
+  blocoBaixo2: {fileID: 455251305}
   blocoEsquerda: {fileID: 893395556}
   blocoBaixo: {fileID: 455251305}
   bloco: {fileID: 0}
@@ -545,8 +545,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296293418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0869, y: -0.1448, z: 0}
-  m_LocalScale: {x: 0.40911448, y: 0.3962659, z: 1}
+  m_LocalPosition: {x: 0.0869, y: 0.0017, z: 0}
+  m_LocalScale: {x: 0.40911448, y: 0.4205043, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 47
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 393768147}
+  blocoBaixo2: {fileID: 841351625}
   blocoEsquerda: {fileID: 459467686}
   blocoBaixo: {fileID: 841351625}
   bloco: {fileID: 0}
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 409947984}
+  blocoBaixo2: {fileID: 940777415}
   blocoEsquerda: {fileID: 1249222407}
   blocoBaixo: {fileID: 940777415}
   bloco: {fileID: 0}
@@ -836,9 +836,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 428668500}
+  blocoBaixo2: {fileID: 51241742}
   blocoEsquerda: {fileID: 1131044739}
   blocoBaixo: {fileID: 51241742}
   bloco: {fileID: 0}
@@ -915,9 +915,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 455251305}
+  blocoBaixo2: {fileID: 1115928453}
   blocoEsquerda: {fileID: 1004575301}
   blocoBaixo: {fileID: 1115928453}
   bloco: {fileID: 0}
@@ -994,9 +994,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 459467686}
+  blocoBaixo2: {fileID: 571392436}
   blocoEsquerda: {fileID: 1947173896}
   blocoBaixo: {fileID: 571392436}
   bloco: {fileID: 0}
@@ -1171,9 +1171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 484335316}
+  blocoBaixo2: {fileID: 1131044739}
   blocoEsquerda: {fileID: 286392764}
   blocoBaixo: {fileID: 1131044739}
   bloco: {fileID: 0}
@@ -1293,11 +1293,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 4
-  blocoSobe: {fileID: 571392436}
+  blocoBaixo2: {fileID: 0}
   blocoEsquerda: {fileID: 1178259234}
-  blocoBaixo: {fileID: 0}
+  blocoBaixo: {fileID: 571392436}
   bloco: {fileID: 0}
   blocoCima: {fileID: 459467686}
   blocoDireita: {fileID: 841351625}
@@ -1372,9 +1372,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 635509296}
+  blocoBaixo2: {fileID: 2141279688}
   blocoEsquerda: {fileID: 651802218}
   blocoBaixo: {fileID: 2141279688}
   bloco: {fileID: 0}
@@ -1451,9 +1451,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 636016029}
+  blocoBaixo2: {fileID: 459467686}
   blocoEsquerda: {fileID: 1115928453}
   blocoBaixo: {fileID: 459467686}
   bloco: {fileID: 0}
@@ -1530,9 +1530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 651802218}
+  blocoBaixo2: {fileID: 1146236917}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1146236917}
   bloco: {fileID: 0}
@@ -1649,9 +1649,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 693485124}
+  blocoBaixo2: {fileID: 286392764}
   blocoEsquerda: {fileID: 1735107590}
   blocoBaixo: {fileID: 286392764}
   bloco: {fileID: 0}
@@ -1789,11 +1789,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 5
-  blocoSobe: {fileID: 841351625}
+  blocoBaixo2: {fileID: 0}
   blocoEsquerda: {fileID: 571392436}
-  blocoBaixo: {fileID: 0}
+  blocoBaixo: {fileID: 841351625}
   bloco: {fileID: 0}
   blocoCima: {fileID: 393768147}
   blocoDireita: {fileID: 0}
@@ -1914,7 +1914,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883169186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0152, y: 4.99, z: 0}
+  m_LocalPosition: {x: -0.0152, y: 5.41, z: 0}
   m_LocalScale: {x: 7.674042, y: 0.7168783, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2017,9 +2017,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 893395556}
+  blocoBaixo2: {fileID: 1004575301}
   blocoEsquerda: {fileID: 1432347170}
   blocoBaixo: {fileID: 1004575301}
   bloco: {fileID: 0}
@@ -2056,9 +2056,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 896745890}
+  blocoBaixo2: {fileID: 651802218}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 651802218}
   bloco: {fileID: 0}
@@ -2175,9 +2175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 922005824}
+  blocoBaixo2: {fileID: 1432347170}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1432347170}
   bloco: {fileID: 0}
@@ -2254,9 +2254,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 940777415}
+  blocoBaixo2: {fileID: 428668500}
   blocoEsquerda: {fileID: 484335316}
   blocoBaixo: {fileID: 428668500}
   bloco: {fileID: 0}
@@ -2412,9 +2412,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 998916950}
+  blocoBaixo2: {fileID: 1735107590}
   blocoEsquerda: {fileID: 2064364854}
   blocoBaixo: {fileID: 1735107590}
   bloco: {fileID: 0}
@@ -2451,9 +2451,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1004575301}
+  blocoBaixo2: {fileID: 43252683}
   blocoEsquerda: {fileID: 124531930}
   blocoBaixo: {fileID: 43252683}
   bloco: {fileID: 0}
@@ -2530,9 +2530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1115928453}
+  blocoBaixo2: {fileID: 1947173896}
   blocoEsquerda: {fileID: 43252683}
   blocoBaixo: {fileID: 1947173896}
   bloco: {fileID: 0}
@@ -2609,9 +2609,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1131044739}
+  blocoBaixo2: {fileID: 636016029}
   blocoEsquerda: {fileID: 455251305}
   blocoBaixo: {fileID: 636016029}
   bloco: {fileID: 0}
@@ -2748,11 +2748,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 1
-  blocoSobe: {fileID: 1146236917}
+  blocoBaixo2: {fileID: 0}
   blocoEsquerda: {fileID: 0}
-  blocoBaixo: {fileID: 0}
+  blocoBaixo: {fileID: 1146236917}
   bloco: {fileID: 0}
   blocoCima: {fileID: 651802218}
   blocoDireita: {fileID: 2141279688}
@@ -2973,11 +2973,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 3
-  blocoSobe: {fileID: 1178259234}
+  blocoBaixo2: {fileID: 0}
   blocoEsquerda: {fileID: 2141279688}
-  blocoBaixo: {fileID: 0}
+  blocoBaixo: {fileID: 1178259234}
   bloco: {fileID: 0}
   blocoCima: {fileID: 1947173896}
   blocoDireita: {fileID: 571392436}
@@ -3092,9 +3092,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1249222407}
+  blocoBaixo2: {fileID: 484335316}
   blocoEsquerda: {fileID: 693485124}
   blocoBaixo: {fileID: 484335316}
   bloco: {fileID: 0}
@@ -3317,9 +3317,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1432347170}
+  blocoBaixo2: {fileID: 124531930}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 124531930}
   bloco: {fileID: 0}
@@ -3475,9 +3475,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1514069192}
+  blocoBaixo2: {fileID: 693485124}
   blocoEsquerda: {fileID: 998916950}
   blocoBaixo: {fileID: 693485124}
   bloco: {fileID: 0}
@@ -3584,9 +3584,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1565685614}
+  blocoBaixo2: {fileID: 1249222407}
   blocoEsquerda: {fileID: 1514069192}
   blocoBaixo: {fileID: 1249222407}
   bloco: {fileID: 0}
@@ -3663,9 +3663,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1586506548}
+  blocoBaixo2: {fileID: 409947984}
   blocoEsquerda: {fileID: 1565685614}
   blocoBaixo: {fileID: 409947984}
   bloco: {fileID: 0}
@@ -3742,9 +3742,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1735107590}
+  blocoBaixo2: {fileID: 893395556}
   blocoEsquerda: {fileID: 922005824}
   blocoBaixo: {fileID: 893395556}
   bloco: {fileID: 0}
@@ -3781,9 +3781,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 1947173896}
+  blocoBaixo2: {fileID: 1178259234}
   blocoEsquerda: {fileID: 635509296}
   blocoBaixo: {fileID: 1178259234}
   bloco: {fileID: 0}
@@ -3900,9 +3900,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 0
-  blocoSobe: {fileID: 2064364854}
+  blocoBaixo2: {fileID: 922005824}
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 922005824}
   bloco: {fileID: 0}
@@ -3939,11 +3939,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 0
+  timer2: 0
   posTip: 2
-  blocoSobe: {fileID: 2141279688}
+  blocoBaixo2: {fileID: 0}
   blocoEsquerda: {fileID: 1146236917}
-  blocoBaixo: {fileID: 0}
+  blocoBaixo: {fileID: 2141279688}
   bloco: {fileID: 0}
   blocoCima: {fileID: 635509296}
   blocoDireita: {fileID: 1178259234}
