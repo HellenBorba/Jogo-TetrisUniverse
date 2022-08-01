@@ -67,7 +67,7 @@ public class Colisão : MonoBehaviour
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
-        if (!blocoCima.GetComponent<Colisão>().bloco)
+        if (!blocoBaixo)
         {
             timer += Time.deltaTime;
             if (timer >= 4)
