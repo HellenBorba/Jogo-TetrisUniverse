@@ -57,9 +57,9 @@ public class Colisão : MonoBehaviour
                 if (blocoBaixo.GetComponent<Colisão>().bloco)
                 {
                     timer2 += Time.deltaTime;
-                    if (timer2 >= 1)
+                    if (timer2 >= 5)
                     {
-                        blocoBaixo.GetComponent<Colisão>().bloco.transform.position = transform.position = transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                        blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                         blocoBaixo.GetComponent<Colisão>().bloco = null;
                         timer2 = 0;
                     }
@@ -67,10 +67,10 @@ public class Colisão : MonoBehaviour
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
-        if (!blocoBaixo2)
+        if (!blocoCima.GetComponent<Colisão>().bloco)
         {
             timer += Time.deltaTime;
-            if (timer >= 5)
+            if (timer >= 4)
             {
                 switch (posTip)
                 {
