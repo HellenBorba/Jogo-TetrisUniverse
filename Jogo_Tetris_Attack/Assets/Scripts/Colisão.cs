@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Colisão : MonoBehaviour
 {
-    public float timer, timer2, posTip;
-    public GameObject blocoBaixo2, blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
+    public float timer, timer2, timer3, timer4, posTip;
+    public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -22,13 +22,15 @@ public class Colisão : MonoBehaviour
             {
                 if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoBaixo.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    Destroy(blocoCima.GetComponent<Colisão>().bloco);
-                    Destroy(bloco);
-                    Destroy(blocoBaixo.GetComponent<Colisão>().bloco);
-                    blocoCima.GetComponent<Colisão>().bloco = null;
-                    bloco.GetComponent<Colisão>().bloco = null;
-                    blocoBaixo.GetComponent<Colisão>().bloco = null;
-                    GM.points += 3;
+                    timer3 += Time.deltaTime;
+                    if (timer3 >= 1)
+                    {
+                        Destroy(blocoCima.GetComponent<Colisão>().bloco);
+                        Destroy(bloco);
+                        Destroy(blocoBaixo.GetComponent<Colisão>().bloco);
+                        GM.points += 3;
+                        timer3 = 0;
+                    }
                 }
             }
         }
@@ -39,13 +41,15 @@ public class Colisão : MonoBehaviour
             {
                 if (blocoEsquerda.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
-                    Destroy(bloco);
-                    Destroy(blocoDireita.GetComponent<Colisão>().bloco);
-                    blocoEsquerda.GetComponent<Colisão>().bloco = null;
-                    bloco.GetComponent<Colisão>().bloco = null;
-                    blocoDireita.GetComponent<Colisão>().bloco = null;
-                    GM.points += 3;
+                    timer4 += Time.deltaTime;
+                    if (timer4 >= 1)
+                    {
+                        Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
+                        Destroy(bloco);
+                        Destroy(blocoDireita.GetComponent<Colisão>().bloco);
+                        GM.points += 3;
+                        timer4 = 0;
+                    }
                 }
             }
         }
@@ -57,41 +61,38 @@ public class Colisão : MonoBehaviour
                 if (blocoBaixo.GetComponent<Colisão>().bloco)
                 {
                     timer2 += Time.deltaTime;
-                    if (timer2 >= 5)
+                    if (timer2 >= 8)
                     {
                         blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                         blocoBaixo.GetComponent<Colisão>().bloco = null;
-                        timer2 = 0;
                     }
+                    timer = 0;
                 }
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
-        if (!blocoBaixo)
+        timer += Time.deltaTime;
+        if (timer >= 9)
         {
-            timer += Time.deltaTime;
-            if (timer >= 4)
+            switch (posTip)
             {
-                switch (posTip)
-                {
-                    case 1:
-                        GM.Spawn1();
-                        break;
-                    case 2:
-                        GM.Spawn2();
-                        break;
-                    case 3:
-                        GM.Spawn3();
-                        break;
-                    case 4:
-                        GM.Spawn4();
-                        break;
-                    case 5:
-                        GM.Spawn5();
-                        break;
-                }
-                timer = 0;
+                case 1:
+                    GM.Spawn1();
+                    break;
+                case 2:
+                    GM.Spawn2();
+                    break;
+                case 3:
+                    GM.Spawn3();
+                    break;
+                case 4:
+                    GM.Spawn4();
+                    break;
+                case 5:
+                    GM.Spawn5();
+                    break;
             }
+            timer = 0;
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------

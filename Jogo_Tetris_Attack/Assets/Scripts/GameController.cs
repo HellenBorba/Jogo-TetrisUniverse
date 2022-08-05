@@ -8,7 +8,7 @@ public class GameController : MonoBehaviour
 {
     public GameObject[] Bola;
     public Transform[] local;
-    public Text texto;
+    public Text[] texto;
     public int points;
 
     [SerializeField]
@@ -18,13 +18,15 @@ public class GameController : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
+        StartCoroutine(tempo());
+        //----------------------------------------------------------------------------------------------------------------------------------
         MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
         ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        texto.text = "Points: " + points;
+        texto[0].text = "Points: " + points;
         //----------------------------------------------------------------------------------------------------------------------------------
         if (Input.GetButtonDown("Fire2"))
         {
@@ -57,5 +59,21 @@ public class GameController : MonoBehaviour
     public void Scene()
     {
         SceneManager.LoadScene(1);
+    }
+    //----------------------------------------------------------------------------------------------------------------------------------
+    IEnumerator tempo()
+    {
+        yield return new WaitForSeconds(0f);
+        texto[1].text = "4";
+        yield return new WaitForSeconds(1f);
+        texto[1].text = "3";
+        yield return new WaitForSeconds(2f);
+        texto[1].text = "2";
+        yield return new WaitForSeconds(3f);
+        texto[1].text = "1";
+        yield return new WaitForSeconds(4f);
+        texto[1].text = "START";
+        yield return new WaitForSeconds(5f);
+        texto[1].text = "";
     }
 }

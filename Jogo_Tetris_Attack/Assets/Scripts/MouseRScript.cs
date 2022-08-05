@@ -34,7 +34,7 @@ public class MouseRScript : MonoBehaviour
         minX = -1.15f;
         maxX = 2.3f;
 
-        minY = -3.59f;
+        minY = -8.19f;
         maxY = 3.31f;
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, minX, maxX),
                                         Mathf.Clamp(transform.position.y, minY, maxY));
