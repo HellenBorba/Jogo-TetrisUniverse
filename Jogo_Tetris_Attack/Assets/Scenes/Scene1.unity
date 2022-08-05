@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 32988461}
   - component: {fileID: 32988460}
   - component: {fileID: 32988459}
+  - component: {fileID: 32988462}
   m_Layer: 0
   m_Name: "Colis\xE3o (53)"
   m_TagString: Untagged
@@ -153,11 +154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 4
+  timer5: 0
   blocoEsquerda: {fileID: 753333737}
   blocoBaixo: {fileID: 32988458}
   bloco: {fileID: 0}
@@ -203,6 +203,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &32988462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32988458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bc668f70334834b9c24d1876cc586f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer1: 0
+  timer2: 0
+  timer3: 0
+  timer4: 0
+  timer5: 0
+  posTip: 4
+  bloco: {fileID: 0}
+  blocoBase1: {fileID: 1261269282}
+  blocoBase2: {fileID: 1198666784}
+  blocoBase3: {fileID: 947925212}
+  blocoBase4: {fileID: 32988458}
+  blocoBase5: {fileID: 753333737}
 --- !u!1 &43252683
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,11 +257,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 896745890}
   blocoBaixo: {fileID: 635509296}
   bloco: {fileID: 0}
@@ -313,11 +336,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 636016029}
   blocoBaixo: {fileID: 393768147}
   bloco: {fileID: 0}
@@ -423,11 +445,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 896745890}
   bloco: {fileID: 0}
@@ -503,11 +524,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1978175511}
   blocoBaixo: {fileID: 469095859}
   bloco: {fileID: 0}
@@ -623,11 +643,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 893395556}
   blocoBaixo: {fileID: 455251305}
   bloco: {fileID: 0}
@@ -775,11 +794,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 469095859}
   blocoBaixo: {fileID: 532976848}
   bloco: {fileID: 0}
@@ -855,11 +873,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 459467686}
   blocoBaixo: {fileID: 841351625}
   bloco: {fileID: 0}
@@ -1041,11 +1058,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1249222407}
   blocoBaixo: {fileID: 940777415}
   bloco: {fileID: 0}
@@ -1081,11 +1097,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1131044739}
   blocoBaixo: {fileID: 51241742}
   bloco: {fileID: 0}
@@ -1161,11 +1176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1004575301}
   blocoBaixo: {fileID: 1115928453}
   bloco: {fileID: 0}
@@ -1241,11 +1255,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1947173896}
   blocoBaixo: {fileID: 571392436}
   bloco: {fileID: 0}
@@ -1381,11 +1394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1219168361}
   blocoBaixo: {fileID: 1720615883}
   bloco: {fileID: 0}
@@ -1461,11 +1473,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1100442293}
   blocoBaixo: {fileID: 1226690106}
   bloco: {fileID: 0}
@@ -1581,11 +1592,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 286392764}
   blocoBaixo: {fileID: 1131044739}
   bloco: {fileID: 0}
@@ -1704,11 +1714,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1720615883}
   blocoBaixo: {fileID: 1198666784}
   bloco: {fileID: 0}
@@ -1784,11 +1793,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1178259234}
   blocoBaixo: {fileID: 1100442293}
   bloco: {fileID: 0}
@@ -1864,11 +1872,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 651802218}
   blocoBaixo: {fileID: 2141279688}
   bloco: {fileID: 0}
@@ -1944,11 +1951,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1115928453}
   blocoBaixo: {fileID: 459467686}
   bloco: {fileID: 0}
@@ -2024,11 +2030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1146236917}
   bloco: {fileID: 0}
@@ -2144,11 +2149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1735107590}
   blocoBaixo: {fileID: 286392764}
   bloco: {fileID: 0}
@@ -2165,6 +2169,7 @@ GameObject:
   - component: {fileID: 753333740}
   - component: {fileID: 753333739}
   - component: {fileID: 753333738}
+  - component: {fileID: 753333741}
   m_Layer: 0
   m_Name: "Colis\xE3o (54)"
   m_TagString: Untagged
@@ -2184,11 +2189,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 5
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 753333737}
   bloco: {fileID: 0}
@@ -2234,6 +2238,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &753333741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753333737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bc668f70334834b9c24d1876cc586f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer1: 0
+  timer2: 0
+  timer3: 0
+  timer4: 0
+  timer5: 0
+  posTip: 5
+  bloco: {fileID: 0}
+  blocoBase1: {fileID: 1261269282}
+  blocoBase2: {fileID: 1198666784}
+  blocoBase3: {fileID: 947925212}
+  blocoBase4: {fileID: 32988458}
+  blocoBase5: {fileID: 753333737}
 --- !u!1 &785772821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,11 +2394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 571392436}
   blocoBaixo: {fileID: 477384986}
   bloco: {fileID: 0}
@@ -2595,11 +2622,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1432347170}
   blocoBaixo: {fileID: 1004575301}
   bloco: {fileID: 0}
@@ -2635,11 +2661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 651802218}
   bloco: {fileID: 0}
@@ -2755,11 +2780,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1432347170}
   bloco: {fileID: 0}
@@ -2835,11 +2859,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 484335316}
   blocoBaixo: {fileID: 428668500}
   bloco: {fileID: 0}
@@ -2935,6 +2958,7 @@ GameObject:
   - component: {fileID: 947925215}
   - component: {fileID: 947925214}
   - component: {fileID: 947925213}
+  - component: {fileID: 947925216}
   m_Layer: 0
   m_Name: "Colis\xE3o (52)"
   m_TagString: Untagged
@@ -2954,11 +2978,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 3
+  timer5: 0
   blocoEsquerda: {fileID: 32988458}
   blocoBaixo: {fileID: 947925212}
   bloco: {fileID: 0}
@@ -3004,6 +3027,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947925216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947925212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bc668f70334834b9c24d1876cc586f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer1: 0
+  timer2: 0
+  timer3: 0
+  timer4: 0
+  timer5: 0
+  posTip: 3
+  bloco: {fileID: 0}
+  blocoBase1: {fileID: 1261269282}
+  blocoBase2: {fileID: 1198666784}
+  blocoBase3: {fileID: 947925212}
+  blocoBase4: {fileID: 32988458}
+  blocoBase5: {fileID: 753333737}
 --- !u!1 &949949661
 GameObject:
   m_ObjectHideFlags: 0
@@ -3034,11 +3081,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 753333737}
   bloco: {fileID: 0}
@@ -3154,11 +3200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 2064364854}
   blocoBaixo: {fileID: 1735107590}
   bloco: {fileID: 0}
@@ -3194,11 +3239,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 124531930}
   blocoBaixo: {fileID: 43252683}
   bloco: {fileID: 0}
@@ -3274,11 +3318,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 153664049}
   blocoBaixo: {fileID: 354648657}
   bloco: {fileID: 0}
@@ -3354,11 +3397,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 43252683}
   blocoBaixo: {fileID: 1947173896}
   bloco: {fileID: 0}
@@ -3434,11 +3476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 455251305}
   blocoBaixo: {fileID: 636016029}
   bloco: {fileID: 0}
@@ -3574,11 +3615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1490865674}
   bloco: {fileID: 0}
@@ -3800,11 +3840,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 2141279688}
   blocoBaixo: {fileID: 153664049}
   bloco: {fileID: 0}
@@ -3861,6 +3900,7 @@ GameObject:
   - component: {fileID: 1198666787}
   - component: {fileID: 1198666786}
   - component: {fileID: 1198666785}
+  - component: {fileID: 1198666788}
   m_Layer: 0
   m_Name: "Colis\xE3o (51)"
   m_TagString: Untagged
@@ -3880,11 +3920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 2
+  timer5: 0
   blocoEsquerda: {fileID: 947925212}
   blocoBaixo: {fileID: 1198666784}
   bloco: {fileID: 0}
@@ -3930,6 +3969,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1198666788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198666784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bc668f70334834b9c24d1876cc586f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer1: 0
+  timer2: 0
+  timer3: 0
+  timer4: 0
+  timer5: 0
+  posTip: 2
+  bloco: {fileID: 0}
+  blocoBase1: {fileID: 1261269282}
+  blocoBase2: {fileID: 1198666784}
+  blocoBase3: {fileID: 947925212}
+  blocoBase4: {fileID: 32988458}
+  blocoBase5: {fileID: 753333737}
 --- !u!1 &1219168361
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,11 +4023,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1222358781}
   blocoBaixo: {fileID: 1612287811}
   bloco: {fileID: 0}
@@ -4040,11 +4102,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 949949661}
   bloco: {fileID: 0}
@@ -4120,11 +4181,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 354648657}
   blocoBaixo: {fileID: 1493097921}
   bloco: {fileID: 0}
@@ -4240,11 +4300,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 693485124}
   blocoBaixo: {fileID: 484335316}
   bloco: {fileID: 0}
@@ -4261,6 +4320,7 @@ GameObject:
   - component: {fileID: 1261269285}
   - component: {fileID: 1261269284}
   - component: {fileID: 1261269283}
+  - component: {fileID: 1261269286}
   m_Layer: 0
   m_Name: "Colis\xE3o (50)"
   m_TagString: Untagged
@@ -4280,11 +4340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 1
+  timer5: 0
   blocoEsquerda: {fileID: 1198666784}
   blocoBaixo: {fileID: 1261269282}
   bloco: {fileID: 0}
@@ -4330,6 +4389,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261269286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261269282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bc668f70334834b9c24d1876cc586f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer1: 0
+  timer2: 0
+  timer3: 0
+  timer4: 0
+  timer5: 0
+  posTip: 1
+  bloco: {fileID: 0}
+  blocoBase1: {fileID: 1261269282}
+  blocoBase2: {fileID: 1198666784}
+  blocoBase3: {fileID: 947925212}
+  blocoBase4: {fileID: 32988458}
+  blocoBase5: {fileID: 753333737}
 --- !u!1 &1340622445
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,11 +4629,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 124531930}
   bloco: {fileID: 0}
@@ -4665,11 +4747,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1222358781}
   bloco: {fileID: 0}
@@ -4745,11 +4826,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 532976848}
   blocoBaixo: {fileID: 1261269282}
   bloco: {fileID: 0}
@@ -4865,11 +4945,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 998916950}
   blocoBaixo: {fileID: 693485124}
   bloco: {fileID: 0}
@@ -4975,11 +5054,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1514069192}
   blocoBaixo: {fileID: 1249222407}
   bloco: {fileID: 0}
@@ -5055,11 +5133,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1565685614}
   blocoBaixo: {fileID: 409947984}
   bloco: {fileID: 0}
@@ -5095,11 +5172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 949949661}
   blocoBaixo: {fileID: 32988458}
   bloco: {fileID: 0}
@@ -5175,11 +5251,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1612287811}
   blocoBaixo: {fileID: 947925212}
   bloco: {fileID: 0}
@@ -5295,11 +5370,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 922005824}
   blocoBaixo: {fileID: 893395556}
   bloco: {fileID: 0}
@@ -5414,11 +5488,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 635509296}
   blocoBaixo: {fileID: 1178259234}
   bloco: {fileID: 0}
@@ -5494,11 +5567,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1490865674}
   blocoBaixo: {fileID: 1219168361}
   bloco: {fileID: 0}
@@ -5614,11 +5686,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 922005824}
   bloco: {fileID: 0}
@@ -5654,11 +5725,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec5035cdcf27654ea21cedae43f42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   timer2: 0
   timer3: 0
   timer4: 0
-  posTip: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1146236917}
   blocoBaixo: {fileID: 1978175511}
   bloco: {fileID: 0}

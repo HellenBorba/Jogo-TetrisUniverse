@@ -4,14 +4,24 @@ using UnityEngine;
 
 public class Colisão : MonoBehaviour
 {
-    public float timer, timer2, timer3, timer4, posTip;
+    public float timer2, timer3, timer4,  timer5;
     public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
 
     private GameController GM;
+    private ColisãoBase CB1;
+    private ColisãoBase CB2;
+    private ColisãoBase CB3;
+    private ColisãoBase CB4;
+    private ColisãoBase CB5;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
         GM = GameObject.Find("GameController").GetComponent<GameController>();
+        CB1 = GameObject.Find("Colisão (50)").GetComponent<ColisãoBase>();
+        CB2 = GameObject.Find("Colisão (51)").GetComponent<ColisãoBase>();
+        CB3 = GameObject.Find("Colisão (52)").GetComponent<ColisãoBase>();
+        CB4 = GameObject.Find("Colisão (53)").GetComponent<ColisãoBase>();
+        CB5 = GameObject.Find("Colisão (54)").GetComponent<ColisãoBase>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
@@ -54,6 +64,7 @@ public class Colisão : MonoBehaviour
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
+        /*
         if (!bloco)
         {
             if (blocoBaixo)
@@ -61,42 +72,33 @@ public class Colisão : MonoBehaviour
                 if (blocoBaixo.GetComponent<Colisão>().bloco)
                 {
                     timer2 += Time.deltaTime;
-                    if (timer2 >= 8)
+                    if (timer2 >= 2)
                     {
                         blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                         blocoBaixo.GetComponent<Colisão>().bloco = null;
                     }
-                    timer = 0;
+                    timer2 = 0;
                 }
             }
         }
-        //----------------------------------------------------------------------------------------------------------------------------------
-        timer += Time.deltaTime;
-        if (timer >= 9)
+        */
+        if(bloco)
         {
-            switch (posTip)
+            timer2 += Time.deltaTime;
+            if(timer2 >= 1)
             {
-                case 1:
-                    GM.Spawn1();
-                    break;
-                case 2:
-                    GM.Spawn2();
-                    break;
-                case 3:
-                    GM.Spawn3();
-                    break;
-                case 4:
-                    GM.Spawn4();
-                    break;
-                case 5:
-                    GM.Spawn5();
-                    break;
+                blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
+                blocoBaixo.GetComponent<Colisão>().bloco = null;
+                CB1.bloco = null;
+                CB2.bloco = null;
+                CB3.bloco = null;
+                CB4.bloco = null;
+                CB5.bloco = null;
             }
-            timer = 0;
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
-    public void OnTriggerStay2D (Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
