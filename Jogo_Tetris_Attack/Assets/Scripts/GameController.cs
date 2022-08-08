@@ -30,8 +30,19 @@ public class GameController : MonoBehaviour
         //----------------------------------------------------------------------------------------------------------------------------------
         if (Input.GetButtonDown("Fire2"))
         {
-            MR.bloco.transform.position = ML.blocoposition;
-            ML.bloco.transform.position = MR.blocoposition;
+            if (ML.bloco && MR.bloco)
+            {
+                MR.bloco.transform.position = ML.transform.position;
+                ML.bloco.transform.position = MR.transform.position;
+            }
+            if(!ML.bloco)
+            {
+                MR.bloco.transform.position = ML.transform.position;
+            }
+            if(!MR.bloco)
+            {
+                ML.bloco.transform.position = MR.transform.position;
+            }
         }
     }   
     //----------------------------------------------------------------------------------------------------------------------------------
