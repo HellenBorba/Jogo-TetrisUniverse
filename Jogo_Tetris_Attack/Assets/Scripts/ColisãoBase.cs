@@ -87,6 +87,7 @@ public class ColisãoBase : MonoBehaviour
             }
         }
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
     public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))

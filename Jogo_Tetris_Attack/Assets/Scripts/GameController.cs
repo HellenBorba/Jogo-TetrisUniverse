@@ -64,18 +64,6 @@ public class GameController : MonoBehaviour
     IEnumerator tempo()
     {
         yield return new WaitForSeconds(0f);
-        texto[1].text = "9";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "8";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "7";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "6";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "5";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "4";
-        yield return new WaitForSeconds(1f);
         texto[1].text = "3";
         yield return new WaitForSeconds(1f);
         texto[1].text = "2";
