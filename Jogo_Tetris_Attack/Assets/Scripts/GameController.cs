@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject[] Bola, Colisoes;
+    public GameObject[] Bola, Colisoes, panelFase;
     public Transform[] local;
     public Text[] texto;
     public int points;
 
-    [SerializeField]
-    private float timer;
     private MouseRScript MR;
     private MouseLScript ML;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -27,6 +25,10 @@ public class GameController : MonoBehaviour
     void Update()
     {
         texto[0].text = "Points: " + points;
+        if(points >= 27)
+        {
+            StartCoroutine(paineis());
+        }
         //----------------------------------------------------------------------------------------------------------------------------------
         if (Input.GetButtonDown("Fire2"))
         {
@@ -84,4 +86,12 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         texto[1].text = "";
     }
+    IEnumerator paineis()
+    {
+        yield return new WaitForSeconds(0f);
+        panelFase[0].SetActive(true);
+        yield return new WaitForSeconds(5f);
+        panelFase[0].SetActive(false);
+    }
+    //----------------------------------------------------------------------------------------------------------------------------------
 }

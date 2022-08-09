@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6694737702945803292}
   - component: {fileID: 6694737702945803290}
   - component: {fileID: -5997328034830642784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bloco_Yellow (1)
   m_TagString: Yellow
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8431620567061615435}
   - component: {fileID: 8725745521034345763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pixil-frame-0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
