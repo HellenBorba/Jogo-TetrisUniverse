@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject[] Bola;
+    public GameObject[] Bola, Colisoes;
     public Transform[] local;
     public Text[] texto;
     public int points;
@@ -34,12 +34,11 @@ public class GameController : MonoBehaviour
             {
                 MR.bloco.transform.position = ML.transform.position;
                 ML.bloco.transform.position = MR.transform.position;
-            }
+            }else
             if(!ML.bloco)
             {
                 MR.bloco.transform.position = ML.transform.position;
-            }
-            if(!MR.bloco)
+            }else
             {
                 ML.bloco.transform.position = MR.transform.position;
             }

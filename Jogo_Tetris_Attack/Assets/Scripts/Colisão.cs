@@ -6,7 +6,7 @@ public class Colisão : MonoBehaviour
 {
     public float timer1, timer2, timer3, timer4;
     public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
-    public int posTip;
+    public int posTip, id;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -59,19 +59,15 @@ public class Colisão : MonoBehaviour
         {
             if (blocoBaixo.GetComponent<Colisão>().bloco)
             {
-                timer3 += Time.deltaTime;
-                if (timer3 >= 0.5f)
-                {
-                    blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-                    blocoBaixo.GetComponent<Colisão>().bloco = null;
-                    timer3 = 0;
-                }
+                blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                blocoBaixo.GetComponent<Colisão>().bloco = null;
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
         timer4 += Time.deltaTime;
-        if (timer4 >= 6)
+        if (timer4 >= 20)
         {
+            id++;
             switch (posTip)
             {
                 case 1:
@@ -91,6 +87,71 @@ public class Colisão : MonoBehaviour
                     break;
             }
             timer4 = 0;
+        }
+        //----------------------------------------------------------------------------------------------------------------------------------
+        if (id == 0)
+        {
+            GM.Colisoes[39].SetActive(true);
+            GM.Colisoes[38].SetActive(true);
+            GM.Colisoes[37].SetActive(true);
+            GM.Colisoes[36].SetActive(true);
+            GM.Colisoes[35].SetActive(true);
+        }
+        if(id == 1)
+        {
+            GM.Colisoes[30].SetActive(true);
+            GM.Colisoes[31].SetActive(true);
+            GM.Colisoes[32].SetActive(true);
+            GM.Colisoes[33].SetActive(true);
+            GM.Colisoes[34].SetActive(true);
+        }
+        if(id == 2)
+        {
+            GM.Colisoes[29].SetActive(true);
+            GM.Colisoes[28].SetActive(true);
+            GM.Colisoes[27].SetActive(true);
+            GM.Colisoes[26].SetActive(true);
+            GM.Colisoes[25].SetActive(true);
+        }
+        if(id == 3)
+        {
+            GM.Colisoes[20].SetActive(true);
+            GM.Colisoes[21].SetActive(true);
+            GM.Colisoes[22].SetActive(true);
+            GM.Colisoes[23].SetActive(true);
+            GM.Colisoes[24].SetActive(true);
+        }
+        if(id == 4)
+        {
+            GM.Colisoes[19].SetActive(true);
+            GM.Colisoes[18].SetActive(true);
+            GM.Colisoes[17].SetActive(true);
+            GM.Colisoes[16].SetActive(true);
+            GM.Colisoes[15].SetActive(true);
+        }
+        if(id == 5)
+        {
+            GM.Colisoes[10].SetActive(true);
+            GM.Colisoes[11].SetActive(true);
+            GM.Colisoes[12].SetActive(true);
+            GM.Colisoes[13].SetActive(true);
+            GM.Colisoes[14].SetActive(true);
+        }
+        if(id == 6)
+        {
+            GM.Colisoes[9].SetActive(true);
+            GM.Colisoes[8].SetActive(true);
+            GM.Colisoes[7].SetActive(true);
+            GM.Colisoes[6].SetActive(true);
+            GM.Colisoes[5].SetActive(true);
+        }
+        if(id == 7)
+        {
+            GM.Colisoes[0].SetActive(true);
+            GM.Colisoes[1].SetActive(true);
+            GM.Colisoes[2].SetActive(true);
+            GM.Colisoes[3].SetActive(true);
+            GM.Colisoes[4].SetActive(true);
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------

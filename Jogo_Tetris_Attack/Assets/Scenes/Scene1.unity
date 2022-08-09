@@ -163,6 +163,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1612287811}
   blocoDireita: {fileID: 947925212}
   posTip: 2
+  id: 0
 --- !u!61 &32988460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -220,7 +221,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &43252684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +244,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1004575301}
   blocoDireita: {fileID: 1115928453}
   posTip: 0
+  id: 0
 --- !u!61 &43252685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -300,7 +302,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &51241743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,6 +325,7 @@ MonoBehaviour:
   blocoCima: {fileID: 428668500}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &51241744
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -363,63 +366,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &99317829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 99317831}
-  - component: {fileID: 99317830}
-  m_Layer: 0
-  m_Name: "Colis\xE3oBase (57)"
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &99317830
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99317829}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &99317831
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99317829}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -9.38, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 73
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108405173
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,11 +405,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6694737702945803293, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 6694737702945803293, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 6694737702945803293, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
       propertyPath: m_LocalPosition.y
@@ -524,7 +470,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &124531931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,6 +493,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1432347170}
   blocoDireita: {fileID: 1004575301}
   posTip: 0
+  id: 0
 --- !u!61 &124531932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -604,7 +551,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &153664050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -627,6 +574,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1178259234}
   blocoDireita: {fileID: 1100442293}
   posTip: 0
+  id: 0
 --- !u!61 &153664051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -667,63 +615,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &227008006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 227008008}
-  - component: {fileID: 227008007}
-  m_Layer: 0
-  m_Name: "Colis\xE3oBase (59)"
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &227008007
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227008006}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &227008008
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227008006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: -9.38, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 75
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &286392764
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +632,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &286392765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -804,6 +695,7 @@ MonoBehaviour:
   blocoCima: {fileID: 693485124}
   blocoDireita: {fileID: 484335316}
   posTip: 0
+  id: 0
 --- !u!1 &296293418
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +776,7 @@ Transform:
   m_LocalScale: {x: 0.42502904, y: 0.6050692, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &340151333
 PrefabInstance:
@@ -1013,6 +905,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1100442293}
   blocoDireita: {fileID: 1226690106}
   posTip: 0
+  id: 0
 --- !u!61 &354648659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1070,7 +963,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &393768148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,6 +986,7 @@ MonoBehaviour:
   blocoCima: {fileID: 51241742}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &393768149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1216,7 +1110,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &409947985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1279,6 +1173,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1586506548}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!1 &428668500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,7 +1191,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &428668501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,6 +1214,7 @@ MonoBehaviour:
   blocoCima: {fileID: 940777415}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &428668502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1376,7 +1272,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &455251306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,6 +1295,7 @@ MonoBehaviour:
   blocoCima: {fileID: 286392764}
   blocoDireita: {fileID: 1131044739}
   posTip: 0
+  id: 0
 --- !u!61 &455251307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1456,7 +1353,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &459467687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1479,6 +1376,7 @@ MonoBehaviour:
   blocoCima: {fileID: 636016029}
   blocoDireita: {fileID: 393768147}
   posTip: 0
+  id: 0
 --- !u!61 &459467688
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1554,6 +1452,62 @@ MonoBehaviour:
   - {fileID: 3547347499377696716, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
   - {fileID: 3739114670356937701, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
   - {fileID: 6694737702945803295, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
+  Colisoes:
+  - {fileID: 1586506548}
+  - {fileID: 1565685614}
+  - {fileID: 1514069192}
+  - {fileID: 998916950}
+  - {fileID: 2064364854}
+  - {fileID: 922005824}
+  - {fileID: 1735107590}
+  - {fileID: 693485124}
+  - {fileID: 1249222407}
+  - {fileID: 409947984}
+  - {fileID: 940777415}
+  - {fileID: 484335316}
+  - {fileID: 286392764}
+  - {fileID: 893395556}
+  - {fileID: 1432347170}
+  - {fileID: 124531930}
+  - {fileID: 1004575301}
+  - {fileID: 455251305}
+  - {fileID: 1131044739}
+  - {fileID: 428668500}
+  - {fileID: 51241742}
+  - {fileID: 636016029}
+  - {fileID: 1115928453}
+  - {fileID: 43252683}
+  - {fileID: 896745890}
+  - {fileID: 651802218}
+  - {fileID: 635509296}
+  - {fileID: 1947173896}
+  - {fileID: 459467686}
+  - {fileID: 393768147}
+  - {fileID: 841351625}
+  - {fileID: 571392436}
+  - {fileID: 1178259234}
+  - {fileID: 2141279688}
+  - {fileID: 1146236917}
+  - {fileID: 1490865674}
+  - {fileID: 1978175511}
+  - {fileID: 153664049}
+  - {fileID: 1100442293}
+  - {fileID: 477384986}
+  - {fileID: 1226690106}
+  - {fileID: 354648657}
+  - {fileID: 469095859}
+  - {fileID: 1219168361}
+  - {fileID: 1222358781}
+  - {fileID: 949949661}
+  - {fileID: 1612287811}
+  - {fileID: 1720615883}
+  - {fileID: 532976848}
+  - {fileID: 1493097921}
+  - {fileID: 1261269282}
+  - {fileID: 1198666784}
+  - {fileID: 947925212}
+  - {fileID: 32988458}
+  - {fileID: 753333737}
   local:
   - {fileID: 349611463}
   - {fileID: 1143479613}
@@ -1619,6 +1573,7 @@ MonoBehaviour:
   blocoCima: {fileID: 153664049}
   blocoDireita: {fileID: 354648657}
   posTip: 0
+  id: 0
 --- !u!61 &469095861
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1676,7 +1631,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &477384987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1699,6 +1654,7 @@ MonoBehaviour:
   blocoCima: {fileID: 841351625}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &477384988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1756,7 +1712,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &484335317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1819,6 +1775,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1249222407}
   blocoDireita: {fileID: 940777415}
   posTip: 0
+  id: 0
 --- !u!1001 &510255509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1832,7 +1789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739114670356937703, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 3739114670356937703, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1999,6 +1956,7 @@ MonoBehaviour:
   blocoCima: {fileID: 354648657}
   blocoDireita: {fileID: 1493097921}
   posTip: 0
+  id: 0
 --- !u!61 &532976850
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2048,7 +2006,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6244830307489019783, guid: 96cd0266e91551245826d4febadef031, type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 6244830307489019783, guid: 96cd0266e91551245826d4febadef031, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2113,7 +2071,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &571392437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2136,6 +2094,7 @@ MonoBehaviour:
   blocoCima: {fileID: 459467686}
   blocoDireita: {fileID: 841351625}
   posTip: 0
+  id: 0
 --- !u!61 &571392438
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2193,7 +2152,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &635509297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2216,6 +2175,7 @@ MonoBehaviour:
   blocoCima: {fileID: 43252683}
   blocoDireita: {fileID: 1947173896}
   posTip: 0
+  id: 0
 --- !u!61 &635509298
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2273,7 +2233,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &636016030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,6 +2256,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1131044739}
   blocoDireita: {fileID: 51241742}
   posTip: 0
+  id: 0
 --- !u!61 &636016031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2410,7 +2371,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &651802219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,6 +2394,7 @@ MonoBehaviour:
   blocoCima: {fileID: 896745890}
   blocoDireita: {fileID: 635509296}
   posTip: 0
+  id: 0
 --- !u!61 &651802220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2490,7 +2452,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &693485125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2553,63 +2515,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1514069192}
   blocoDireita: {fileID: 1249222407}
   posTip: 0
---- !u!1 &740120409
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 740120411}
-  - component: {fileID: 740120410}
-  m_Layer: 0
-  m_Name: "Colis\xE3oBase (56)"
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &740120410
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740120409}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &740120411
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740120409}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.15, y: -9.38, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 72
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  id: 0
 --- !u!1 &753333737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,6 +2556,7 @@ MonoBehaviour:
   blocoCima: {fileID: 949949661}
   blocoDireita: {fileID: 32988458}
   posTip: 1
+  id: 0
 --- !u!61 &753333739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2809,7 +2716,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &841351626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,6 +2739,7 @@ MonoBehaviour:
   blocoCima: {fileID: 393768147}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &841351627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2954,7 +2862,7 @@ Transform:
   m_LocalScale: {x: 7.674042, y: 0.7168783, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &883169189
 BoxCollider2D:
@@ -3011,7 +2919,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &893395557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3074,6 +2982,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1735107590}
   blocoDireita: {fileID: 286392764}
   posTip: 0
+  id: 0
 --- !u!1 &896745890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,7 +3000,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &896745891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3114,6 +3023,7 @@ MonoBehaviour:
   blocoCima: {fileID: 124531930}
   blocoDireita: {fileID: 43252683}
   posTip: 0
+  id: 0
 --- !u!61 &896745892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3171,7 +3081,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &922005825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3234,6 +3144,7 @@ MonoBehaviour:
   blocoCima: {fileID: 2064364854}
   blocoDireita: {fileID: 1735107590}
   posTip: 0
+  id: 0
 --- !u!1 &940777415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,7 +3162,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &940777416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3314,6 +3225,7 @@ MonoBehaviour:
   blocoCima: {fileID: 409947984}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!1 &946343822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3433,6 +3345,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1720615883}
   blocoDireita: {fileID: 1198666784}
   posTip: 3
+  id: 0
 --- !u!61 &947925214
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3513,6 +3426,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1222358781}
   blocoDireita: {fileID: 1612287811}
   posTip: 0
+  id: 0
 --- !u!61 &949949663
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3627,7 +3541,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &998916951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3687,66 +3601,10 @@ MonoBehaviour:
   blocoEsquerda: {fileID: 2064364854}
   blocoBaixo: {fileID: 1735107590}
   bloco: {fileID: 0}
-  blocoCima: {fileID: 0}
+  blocoCima: {fileID: 998916950}
   blocoDireita: {fileID: 1514069192}
   posTip: 0
---- !u!1 &1001886760
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1001886762}
-  - component: {fileID: 1001886761}
-  m_Layer: 0
-  m_Name: "Colis\xE3oBase (55)"
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1001886761
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001886760}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &1001886762
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001886760}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3, y: -9.38, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 71
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  id: 0
 --- !u!1 &1004575301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,7 +3622,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1004575302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3787,6 +3645,7 @@ MonoBehaviour:
   blocoCima: {fileID: 893395556}
   blocoDireita: {fileID: 455251305}
   posTip: 0
+  id: 0
 --- !u!61 &1004575303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3844,7 +3703,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1100442294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3867,6 +3726,7 @@ MonoBehaviour:
   blocoCima: {fileID: 571392436}
   blocoDireita: {fileID: 477384986}
   posTip: 0
+  id: 0
 --- !u!61 &1100442295
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3924,7 +3784,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1115928454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3947,6 +3807,7 @@ MonoBehaviour:
   blocoCima: {fileID: 455251305}
   blocoDireita: {fileID: 636016029}
   posTip: 0
+  id: 0
 --- !u!61 &1115928455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4004,7 +3865,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1131044740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4027,6 +3888,7 @@ MonoBehaviour:
   blocoCima: {fileID: 484335316}
   blocoDireita: {fileID: 428668500}
   posTip: 0
+  id: 0
 --- !u!61 &1131044741
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4144,7 +4006,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1146236918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4167,6 +4029,7 @@ MonoBehaviour:
   blocoCima: {fileID: 651802218}
   blocoDireita: {fileID: 2141279688}
   posTip: 0
+  id: 0
 --- !u!61 &1146236919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4370,7 +4233,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1178259235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4393,6 +4256,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1947173896}
   blocoDireita: {fileID: 571392436}
   posTip: 0
+  id: 0
 --- !u!61 &1178259236
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4432,63 +4296,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 48
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1192756327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1192756329}
-  - component: {fileID: 1192756328}
-  m_Layer: 0
-  m_Name: "Colis\xE3oBase (58)"
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1192756328
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192756327}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &1192756329
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192756327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.15, y: -9.38, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1198666784
 GameObject:
@@ -4530,6 +4337,7 @@ MonoBehaviour:
   blocoCima: {fileID: 532976848}
   blocoDireita: {fileID: 1261269282}
   posTip: 4
+  id: 0
 --- !u!61 &1198666786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4610,6 +4418,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1978175511}
   blocoDireita: {fileID: 469095859}
   posTip: 0
+  id: 0
 --- !u!61 &1219168363
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4690,6 +4499,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1490865674}
   blocoDireita: {fileID: 1219168361}
   posTip: 0
+  id: 0
 --- !u!61 &1222358783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4770,6 +4580,7 @@ MonoBehaviour:
   blocoCima: {fileID: 477384986}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &1226690108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4827,7 +4638,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1249222408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4890,6 +4701,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1565685614}
   blocoDireita: {fileID: 409947984}
   posTip: 0
+  id: 0
 --- !u!1 &1261269282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4930,6 +4742,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1493097921}
   blocoDireita: {fileID: 0}
   posTip: 5
+  id: 0
 --- !u!61 &1261269284
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5125,7 +4938,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5314687320029224007, guid: 7e2502f8924742c40951183ebdeb27c9, type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 5314687320029224007, guid: 7e2502f8924742c40951183ebdeb27c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5182,7 +4995,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6244830307489019783, guid: 96cd0266e91551245826d4febadef031, type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 6244830307489019783, guid: 96cd0266e91551245826d4febadef031, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5304,7 +5117,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1432347171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5367,6 +5180,7 @@ MonoBehaviour:
   blocoCima: {fileID: 922005824}
   blocoDireita: {fileID: 893395556}
   posTip: 0
+  id: 0
 --- !u!1001 &1440446877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5520,7 +5334,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1490865675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5543,6 +5357,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1146236917}
   blocoDireita: {fileID: 1978175511}
   posTip: 0
+  id: 0
 --- !u!61 &1490865676
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5623,6 +5438,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1226690106}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!61 &1493097923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5680,7 +5496,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1514069193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5740,9 +5556,10 @@ MonoBehaviour:
   blocoEsquerda: {fileID: 998916950}
   blocoBaixo: {fileID: 693485124}
   bloco: {fileID: 0}
-  blocoCima: {fileID: 0}
+  blocoCima: {fileID: 1514069192}
   blocoDireita: {fileID: 1565685614}
   posTip: 0
+  id: 0
 --- !u!1 &1543086322
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,7 +5607,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1565685615
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5850,9 +5667,10 @@ MonoBehaviour:
   blocoEsquerda: {fileID: 1514069192}
   blocoBaixo: {fileID: 1249222407}
   bloco: {fileID: 0}
-  blocoCima: {fileID: 0}
+  blocoCima: {fileID: 1565685614}
   blocoDireita: {fileID: 1586506548}
   posTip: 0
+  id: 0
 --- !u!1 &1586506548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5870,7 +5688,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1586506549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5930,9 +5748,10 @@ MonoBehaviour:
   blocoEsquerda: {fileID: 1565685614}
   blocoBaixo: {fileID: 409947984}
   bloco: {fileID: 0}
-  blocoCima: {fileID: 0}
+  blocoCima: {fileID: 1586506548}
   blocoDireita: {fileID: 0}
   posTip: 0
+  id: 0
 --- !u!1 &1612287811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,6 +5792,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1219168361}
   blocoDireita: {fileID: 1720615883}
   posTip: 0
+  id: 0
 --- !u!61 &1612287813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6022,7 +5842,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6694737702945803293, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 6694737702945803293, guid: 292cdc2353b611847b9bbb1b6dfb2598, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6083,11 +5903,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739114670356937703, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 3739114670356937703, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.15
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 3739114670356937703, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6167,6 +5987,7 @@ MonoBehaviour:
   blocoCima: {fileID: 469095859}
   blocoDireita: {fileID: 532976848}
   posTip: 0
+  id: 0
 --- !u!61 &1720615885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6224,7 +6045,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1735107591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6287,6 +6108,7 @@ MonoBehaviour:
   blocoCima: {fileID: 998916950}
   blocoDireita: {fileID: 693485124}
   posTip: 0
+  id: 0
 --- !u!1 &1808092492
 GameObject:
   m_ObjectHideFlags: 0
@@ -6379,7 +6201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3547347499377696721, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3547347499377696721, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6436,7 +6258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3547347499377696721, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 3547347499377696721, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6497,7 +6319,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1947173897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6520,6 +6342,7 @@ MonoBehaviour:
   blocoCima: {fileID: 1115928453}
   blocoDireita: {fileID: 459467686}
   posTip: 0
+  id: 0
 --- !u!61 &1947173898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6569,7 +6392,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5314687320029224007, guid: 7e2502f8924742c40951183ebdeb27c9, type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 5314687320029224007, guid: 7e2502f8924742c40951183ebdeb27c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6634,7 +6457,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1978175512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6657,6 +6480,7 @@ MonoBehaviour:
   blocoCima: {fileID: 2141279688}
   blocoDireita: {fileID: 153664049}
   posTip: 0
+  id: 0
 --- !u!61 &1978175513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6714,7 +6538,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2064364855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6774,9 +6598,10 @@ MonoBehaviour:
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 922005824}
   bloco: {fileID: 0}
-  blocoCima: {fileID: 0}
+  blocoCima: {fileID: 2064364854}
   blocoDireita: {fileID: 998916950}
   posTip: 0
+  id: 0
 --- !u!1 &2141279688
 GameObject:
   m_ObjectHideFlags: 0
@@ -6794,7 +6619,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2141279689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6817,6 +6642,7 @@ MonoBehaviour:
   blocoCima: {fileID: 635509296}
   blocoDireita: {fileID: 1178259234}
   posTip: 0
+  id: 0
 --- !u!61 &2141279690
 BoxCollider2D:
   m_ObjectHideFlags: 0
