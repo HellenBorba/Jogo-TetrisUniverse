@@ -6,29 +6,23 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject[] Bola, Colisoes, panelFase;
+    public GameObject[] Bola, Colisoes;
     public Transform[] local;
     public Text[] texto;
-    public int points;
+    public int points, pontosFase, tempoFase;
 
     private MouseRScript MR;
     private MouseLScript ML;
     //----------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-        StartCoroutine(tempo());
-        //----------------------------------------------------------------------------------------------------------------------------------
         MR = GameObject.Find("MouseR").GetComponent<MouseRScript>();
         ML = GameObject.Find("MouseL").GetComponent<MouseLScript>();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        texto[0].text = "Points: " + points;
-        if(points >= 27)
-        {
-            StartCoroutine(paineis());
-        }
+        texto[0].text = "Pointos: " + points;
         //----------------------------------------------------------------------------------------------------------------------------------
         if (Input.GetButtonDown("Fire2"))
         {
@@ -72,26 +66,9 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    IEnumerator tempo()
+    public void Sair()
     {
-        yield return new WaitForSeconds(0f);
-        texto[1].text = "3";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "2";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "1";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "START";
-        yield return new WaitForSeconds(1f);
-        texto[1].text = "";
-    }
-    IEnumerator paineis()
-    {
-        yield return new WaitForSeconds(0f);
-        panelFase[0].SetActive(true);
-        yield return new WaitForSeconds(5f);
-        panelFase[0].SetActive(false);
+        Application.Quit();
     }
     //----------------------------------------------------------------------------------------------------------------------------------
 }
