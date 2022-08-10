@@ -27,9 +27,12 @@ public class Fase3 : MonoBehaviour
     {
         yield return new WaitForSeconds(0f);
         texto.text = "Parábens você passou! você foi ótimo!";
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(4f);
         texto.text = "";
+        yield return new WaitForSeconds(1f);
+        Camera.main.backgroundColor = Color.green;
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Menu");
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
 }

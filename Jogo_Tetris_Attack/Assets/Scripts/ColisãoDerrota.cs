@@ -30,4 +30,5 @@ public class ColisãoDerrota : MonoBehaviour
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(0);
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
 }

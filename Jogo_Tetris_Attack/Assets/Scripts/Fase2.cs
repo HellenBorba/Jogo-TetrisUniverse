@@ -32,4 +32,5 @@ public class Fase2 : MonoBehaviour
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Scene3");
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
 }

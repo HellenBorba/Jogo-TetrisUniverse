@@ -24,6 +24,7 @@ public class GameController : MonoBehaviour
     {
         texto[0].text = "Pointos: " + points;
         //----------------------------------------------------------------------------------------------------------------------------------
+        #region Botão R
         if (Input.GetButtonDown("Fire2"))
         {
             if (ML.bloco && MR.bloco)
@@ -39,8 +40,14 @@ public class GameController : MonoBehaviour
                 ML.bloco.transform.position = MR.transform.position;
             }
         }
-    }   
+        #endregion
+        if(Input.GetButtonDown("Fire3"))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
     //----------------------------------------------------------------------------------------------------------------------------------
+    #region Spawns
     public void Spawn1()
     {
         Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[0].position.x, local[0].position.y, 0), Quaternion.identity);
@@ -61,14 +68,6 @@ public class GameController : MonoBehaviour
     {
         Instantiate(Bola[(int)Random.Range(0, 5)], new Vector3(local[4].position.x, local[4].position.y, 0), Quaternion.identity);
     }
-    //----------------------------------------------------------------------------------------------------------------------------------
-    public void Scene()
-    {
-        SceneManager.LoadScene(1);
-    }
-    public void Sair()
-    {
-        Application.Quit();
-    }
+    #endregion
     //----------------------------------------------------------------------------------------------------------------------------------
 }

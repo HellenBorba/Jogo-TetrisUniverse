@@ -48,4 +48,5 @@ public class MouseLScript : MonoBehaviour
             blocoposition = bloco.transform.position; //salvando a posição do bloco.
         }
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
 }

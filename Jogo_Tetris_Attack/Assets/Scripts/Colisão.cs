@@ -17,6 +17,7 @@ public class Colisão : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
+        #region Matches
         if (bloco && blocoCima && blocoBaixo)
         {
             if (blocoCima.GetComponent<Colisão>().bloco && blocoBaixo.GetComponent<Colisão>().bloco)
@@ -54,6 +55,7 @@ public class Colisão : MonoBehaviour
                 }
             }
         }
+        #endregion
         //----------------------------------------------------------------------------------------------------------------------------------
         if (!bloco)
         {
@@ -89,6 +91,7 @@ public class Colisão : MonoBehaviour
             timer4 = 0;
         }
         //----------------------------------------------------------------------------------------------------------------------------------
+        #region colisoes id
         if (id == 0)
         {
             GM.Colisoes[39].SetActive(true);
@@ -153,6 +156,7 @@ public class Colisão : MonoBehaviour
             GM.Colisoes[3].SetActive(true);
             GM.Colisoes[4].SetActive(true);
         }
+        #endregion
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     public void OnTriggerStay2D(Collider2D collision)
@@ -162,4 +166,5 @@ public class Colisão : MonoBehaviour
             bloco = collision.gameObject;
         }
     }
+    //----------------------------------------------------------------------------------------------------------------------------------
 }
