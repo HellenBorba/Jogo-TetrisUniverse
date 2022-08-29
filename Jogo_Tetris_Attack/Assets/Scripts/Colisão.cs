@@ -30,6 +30,9 @@ public class Colisão : MonoBehaviour
                         Destroy(blocoCima.GetComponent<Colisão>().bloco);
                         Destroy(bloco);
                         Destroy(blocoBaixo.GetComponent<Colisão>().bloco);
+                        blocoCima.GetComponent<Colisão>().bloco = null;
+                        bloco.GetComponent<Colisão>().bloco = null;
+                        blocoBaixo.GetComponent<Colisão>().bloco = null;
                         GM.points += 3;
                         timer1 = 0;
                     }
@@ -49,6 +52,9 @@ public class Colisão : MonoBehaviour
                         Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
                         Destroy(bloco);
                         Destroy(blocoDireita.GetComponent<Colisão>().bloco);
+                        blocoEsquerda.GetComponent<Colisão>().bloco = null;
+                        bloco.GetComponent<Colisão>().bloco = null;
+                        blocoDireita.GetComponent<Colisão>().bloco = null;
                         GM.points += 3;
                         timer2 = 0;
                     }
@@ -59,10 +65,16 @@ public class Colisão : MonoBehaviour
         //----------------------------------------------------------------------------------------------------------------------------------
         if (!bloco)
         {
-            if (blocoBaixo.GetComponent<Colisão>().bloco)
+            if (!bloco.GetComponent<Colisão>().bloco)
             {
-                blocoBaixo.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-                blocoBaixo.GetComponent<Colisão>().bloco = null;
+                if (blocoCima)
+                {
+                    if (blocoCima.GetComponent<Colisão>().bloco)
+                    {
+                        bloco.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+                        bloco.GetComponent<Colisão>().bloco = null;
+                    }
+                }
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------
