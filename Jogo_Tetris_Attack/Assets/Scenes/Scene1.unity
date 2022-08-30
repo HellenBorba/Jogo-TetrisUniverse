@@ -157,6 +157,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 753333737}
   blocoBaixo: {fileID: 32988458}
   bloco: {fileID: 0}
@@ -243,6 +244,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 896745890}
   blocoBaixo: {fileID: 635509296}
   bloco: {fileID: 0}
@@ -324,6 +326,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 636016029}
   blocoBaixo: {fileID: 393768147}
   bloco: {fileID: 0}
@@ -508,6 +511,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 896745890}
   bloco: {fileID: 0}
@@ -589,6 +593,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1978175511}
   blocoBaixo: {fileID: 469095859}
   bloco: {fileID: 0}
@@ -715,6 +720,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 893395556}
   blocoBaixo: {fileID: 455251305}
   bloco: {fileID: 0}
@@ -937,6 +943,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 469095859}
   blocoBaixo: {fileID: 532976848}
   bloco: {fileID: 0}
@@ -1023,6 +1030,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 459467686}
   blocoBaixo: {fileID: 841351625}
   bloco: {fileID: 0}
@@ -1210,6 +1218,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1249222407}
   blocoBaixo: {fileID: 940777415}
   bloco: {fileID: 0}
@@ -1251,6 +1260,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1131044739}
   blocoBaixo: {fileID: 51241742}
   bloco: {fileID: 0}
@@ -1337,6 +1347,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1004575301}
   blocoBaixo: {fileID: 1115928453}
   bloco: {fileID: 0}
@@ -1418,6 +1429,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1947173896}
   blocoBaixo: {fileID: 571392436}
   bloco: {fileID: 0}
@@ -1557,6 +1569,7 @@ MonoBehaviour:
   - {fileID: 947925212}
   - {fileID: 32988458}
   - {fileID: 753333737}
+  Sobe: {fileID: 1976652429}
   local:
   - {fileID: 349611463}
   - {fileID: 1143479613}
@@ -1566,9 +1579,10 @@ MonoBehaviour:
   texto:
   - {fileID: 1452604893}
   - {fileID: 958409394}
+  timer5: 0
   points: 0
   pontosFase: 15
-  tempoFase: 15
+  tempoFase: 3
 --- !u!4 &468055143
 Transform:
   m_ObjectHideFlags: 0
@@ -1630,6 +1644,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1219168361}
   blocoBaixo: {fileID: 1720615883}
   bloco: {fileID: 0}
@@ -1711,6 +1726,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1100442293}
   blocoBaixo: {fileID: 1226690106}
   bloco: {fileID: 0}
@@ -1832,6 +1848,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 286392764}
   blocoBaixo: {fileID: 1131044739}
   bloco: {fileID: 0}
@@ -2026,6 +2043,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1720615883}
   blocoBaixo: {fileID: 1198666784}
   bloco: {fileID: 0}
@@ -2185,6 +2203,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1178259234}
   blocoBaixo: {fileID: 1100442293}
   bloco: {fileID: 0}
@@ -2266,6 +2285,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 651802218}
   blocoBaixo: {fileID: 2141279688}
   bloco: {fileID: 0}
@@ -2347,6 +2367,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1115928453}
   blocoBaixo: {fileID: 459467686}
   bloco: {fileID: 0}
@@ -2501,6 +2522,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1146236917}
   bloco: {fileID: 0}
@@ -2622,6 +2644,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1735107590}
   blocoBaixo: {fileID: 286392764}
   bloco: {fileID: 0}
@@ -2668,6 +2691,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 753333737}
   bloco: {fileID: 0}
@@ -2979,6 +3003,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 571392436}
   blocoBaixo: {fileID: 477384986}
   bloco: {fileID: 0}
@@ -3222,6 +3247,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1432347170}
   blocoBaixo: {fileID: 1004575301}
   bloco: {fileID: 0}
@@ -3263,6 +3289,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 651802218}
   bloco: {fileID: 0}
@@ -3384,6 +3411,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1432347170}
   bloco: {fileID: 0}
@@ -3465,6 +3493,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 484335316}
   blocoBaixo: {fileID: 428668500}
   bloco: {fileID: 0}
@@ -3506,6 +3535,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 32988458}
   blocoBaixo: {fileID: 947925212}
   bloco: {fileID: 0}
@@ -3587,6 +3617,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 753333737}
   bloco: {fileID: 0}
@@ -3861,6 +3892,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 2064364854}
   blocoBaixo: {fileID: 1735107590}
   bloco: {fileID: 0}
@@ -3902,6 +3934,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 124531930}
   blocoBaixo: {fileID: 43252683}
   bloco: {fileID: 0}
@@ -3983,6 +4016,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 153664049}
   blocoBaixo: {fileID: 354648657}
   bloco: {fileID: 0}
@@ -4069,6 +4103,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 43252683}
   blocoBaixo: {fileID: 1947173896}
   bloco: {fileID: 0}
@@ -4150,6 +4185,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 455251305}
   blocoBaixo: {fileID: 636016029}
   bloco: {fileID: 0}
@@ -4291,6 +4327,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1490865674}
   bloco: {fileID: 0}
@@ -4518,6 +4555,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 2141279688}
   blocoBaixo: {fileID: 153664049}
   bloco: {fileID: 0}
@@ -4599,6 +4637,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 947925212}
   blocoBaixo: {fileID: 1198666784}
   bloco: {fileID: 0}
@@ -4680,6 +4719,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1222358781}
   blocoBaixo: {fileID: 1612287811}
   bloco: {fileID: 0}
@@ -4761,6 +4801,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 949949661}
   bloco: {fileID: 0}
@@ -4842,6 +4883,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 354648657}
   blocoBaixo: {fileID: 1493097921}
   bloco: {fileID: 0}
@@ -4963,6 +5005,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 693485124}
   blocoBaixo: {fileID: 484335316}
   bloco: {fileID: 0}
@@ -5004,6 +5047,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1198666784}
   blocoBaixo: {fileID: 1261269282}
   bloco: {fileID: 0}
@@ -5574,6 +5618,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 124531930}
   bloco: {fileID: 0}
@@ -5767,6 +5812,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 1222358781}
   bloco: {fileID: 0}
@@ -5848,6 +5894,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 532976848}
   blocoBaixo: {fileID: 1261269282}
   bloco: {fileID: 0}
@@ -5969,6 +6016,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 998916950}
   blocoBaixo: {fileID: 693485124}
   bloco: {fileID: 0}
@@ -6085,6 +6133,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1514069192}
   blocoBaixo: {fileID: 1249222407}
   bloco: {fileID: 0}
@@ -6166,6 +6215,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1565685614}
   blocoBaixo: {fileID: 409947984}
   bloco: {fileID: 0}
@@ -6207,6 +6257,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 949949661}
   blocoBaixo: {fileID: 32988458}
   bloco: {fileID: 0}
@@ -6435,6 +6486,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1612287811}
   blocoBaixo: {fileID: 947925212}
   bloco: {fileID: 0}
@@ -6556,6 +6608,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 922005824}
   blocoBaixo: {fileID: 893395556}
   bloco: {fileID: 0}
@@ -6740,6 +6793,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 635509296}
   blocoBaixo: {fileID: 1178259234}
   bloco: {fileID: 0}
@@ -7046,6 +7100,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1490865674}
   blocoBaixo: {fileID: 1219168361}
   bloco: {fileID: 0}
@@ -7182,6 +7237,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 0}
   blocoBaixo: {fileID: 922005824}
   bloco: {fileID: 0}
@@ -7302,6 +7358,7 @@ MonoBehaviour:
   timer2: 0
   timer3: 0
   timer4: 0
+  timer5: 0
   blocoEsquerda: {fileID: 1146236917}
   blocoBaixo: {fileID: 1978175511}
   bloco: {fileID: 0}
