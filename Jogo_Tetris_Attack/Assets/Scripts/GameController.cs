@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject Sobe;
     public Transform[] local;
     public Text[] texto;
-    public float timer5;
+    public float timer5, xi = 0.0056f;
     public int points, pontosFase, tempoFase;
 
     private MouseRScript MR;
@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
         timer5 += Time.deltaTime;
         if(timer5 >= tempoFase)
         {
-            Sobe.transform.position = new Vector2(transform.position.x, transform.position.y + 1.15f);
+            Sobe.transform.position = new Vector2(Sobe.transform.position.x, transform.position.y - 0.01f);
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
