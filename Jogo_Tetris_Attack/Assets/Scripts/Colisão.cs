@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Colisão : MonoBehaviour
 {
-    public float timer1, timer2, timer3, timer4, timer5;
+    public float timer1, timer2, timer3, timer4, timer5, timer6;
     public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
     public int posTip, id;
 
@@ -69,6 +69,14 @@ public class Colisão : MonoBehaviour
             {
                 blocoCima.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
                 blocoCima.GetComponent<Colisão>().bloco = null;
+            }
+        }
+        timer6 += Time.deltaTime;
+        if (timer6 >= GM.tempoFase)
+        {
+            if (bloco)
+            {
+                bloco.GetComponent<Colisão>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
             }
         }
         //----------------------------------------------------------------------------------------------------------------------------------

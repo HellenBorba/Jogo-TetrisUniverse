@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     public GameObject Sobe;
     public Transform[] local;
     public Text[] texto;
-    public float timer5, xi = 0.0056f;
+    public float timer5, xi = 0.0056f, yi;
     public int points, pontosFase, tempoFase;
 
     private MouseRScript MR;
@@ -46,11 +46,6 @@ public class GameController : MonoBehaviour
         if(Input.GetButtonDown("Fire3"))
         {
             SceneManager.LoadScene("Menu");
-        }
-        timer5 += Time.deltaTime;
-        if(timer5 >= tempoFase)
-        {
-            Sobe.transform.position = new Vector2(Sobe.transform.position.x, transform.position.y - 0.01f);
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
