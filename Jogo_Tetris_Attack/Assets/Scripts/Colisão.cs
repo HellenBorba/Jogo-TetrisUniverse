@@ -71,6 +71,7 @@ public class Colisão : MonoBehaviour
                 blocoCima.GetComponent<Colisão>().bloco = null;
             }
         }
+        /*
         timer5 += Time.deltaTime;
         if (timer5 >= GM.tempoS)
         {
@@ -108,6 +109,7 @@ public class Colisão : MonoBehaviour
             }
             timer4 = 0;
         }
+        */
         //----------------------------------------------------------------------------------------------------------------------------------
         #region colisoes id
         if (id == 0)
