@@ -12444,6 +12444,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6232118031441809076, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232118031441809076, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232118031441809076, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8535039758081426380, guid: 330d9fd40651ec44b85ed76c7d044da7, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -13570,6 +13582,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1991841584}
     m_Modifications:
+    - target: {fileID: 4494304279743313883, guid: 96cd0266e91551245826d4febadef031, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494304279743313883, guid: 96cd0266e91551245826d4febadef031, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494304279743313883, guid: 96cd0266e91551245826d4febadef031, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6244830307489019783, guid: 96cd0266e91551245826d4febadef031, type: 3}
       propertyPath: m_RootOrder
       value: 4
