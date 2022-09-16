@@ -12,10 +12,6 @@ TagManager:
   - Purple
   - Red
   - Yellow
-  - Mol
-  - ColS
-  - 1
-  - parede
   layers:
   - Default
   - TransparentFX

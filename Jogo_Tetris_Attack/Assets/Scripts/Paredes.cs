@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ColisãoDerrota : MonoBehaviour
+public class Paredes : MonoBehaviour
 {
+    public int num;
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
     private void Start()
@@ -17,7 +18,14 @@ public class ColisãoDerrota : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
-            StartCoroutine(morango());
+            switch (num)
+            {
+                case 1:
+                    StartCoroutine(morango());
+                    break;
+                case 2:
+                    break;
+            }
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------

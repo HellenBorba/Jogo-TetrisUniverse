@@ -7,6 +7,7 @@ public class Colisão : MonoBehaviour
     public float timer1, timer2, timer3, timer4, timer5;
     public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
     public int posTip, id;
+    public SpriteRenderer bloquinhos;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -71,45 +72,6 @@ public class Colisão : MonoBehaviour
                 blocoCima.GetComponent<Colisão>().bloco = null;
             }
         }
-        /*
-        timer5 += Time.deltaTime;
-        if (timer5 >= GM.tempoS)
-        {
-            if (bloco)
-            {
-                if (blocoBaixo.GetComponent<Colisão>().bloco)
-                {
-                    bloco.transform.position = new Vector3(transform.position.x, transform.position.y + 1.15f, transform.position.z);
-                }
-            }
-            timer5 = 0;
-        }
-        //----------------------------------------------------------------------------------------------------------------------------------
-        timer4 += Time.deltaTime;
-        if (timer4 >= GM.tempoS)
-        {
-            id++;
-            switch (posTip)
-            {
-                case 1:
-                    GM.Spawn1();
-                    break;
-                case 2:
-                    GM.Spawn2();
-                    break;
-                case 3:
-                    GM.Spawn3();
-                    break;
-                case 4:
-                    GM.Spawn4();
-                    break;
-                case 5:
-                    GM.Spawn5();
-                    break;
-            }
-            timer4 = 0;
-        }
-        */
         //----------------------------------------------------------------------------------------------------------------------------------
         #region colisoes id
         if (id == 0)
@@ -184,6 +146,11 @@ public class Colisão : MonoBehaviour
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
             bloco = collision.gameObject;
+            bloquinhos = bloco.GetComponent<SpriteRenderer>(); 
+        }
+        if(collision.gameObject.CompareTag("Nol"))
+        {
+            bloquinhos.color = Color.black;
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
