@@ -16,16 +16,14 @@ public class Paredes : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
+        switch (num)
         {
-            switch (num)
-            {
-                case 1:
+            case 1:
+                if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
+                {
                     StartCoroutine(morango());
-                    break;
-                case 2:
-                    break;
-            }
+                }
+                break;
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------

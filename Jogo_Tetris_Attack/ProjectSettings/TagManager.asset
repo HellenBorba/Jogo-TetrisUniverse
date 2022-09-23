@@ -12,6 +12,8 @@ TagManager:
   - Purple
   - Red
   - Yellow
+  - 1
+  - Clone
   layers:
   - Default
   - TransparentFX

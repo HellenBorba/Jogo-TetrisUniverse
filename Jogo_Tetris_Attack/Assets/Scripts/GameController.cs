@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject[] Bola, Colisoes;
+    public GameObject[] Bola, Colisoes, TodosBlocos;
     public GameObject Sobe;
     public Transform[] local;
     public Text[] texto;
