@@ -7,7 +7,6 @@ public class Colisão : MonoBehaviour
     public float timer1, timer2, timer3, timer4, timer5;
     public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
     public int posTip, id;
-    public SpriteRenderer bloquinhos;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -26,7 +25,7 @@ public class Colisão : MonoBehaviour
                 if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoBaixo.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
                     timer1 += Time.deltaTime;
-                    if (timer1 >= 1)
+                    if (timer1 >= 0.3f)
                     {
                         Destroy(blocoCima.GetComponent<Colisão>().bloco);
                         Destroy(bloco);
@@ -48,7 +47,7 @@ public class Colisão : MonoBehaviour
                 if (blocoEsquerda.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
                     timer2 += Time.deltaTime;
-                    if (timer2 >= 1)
+                    if (timer2 >= 0.3f)
                     {
                         Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
                         Destroy(bloco);
@@ -146,11 +145,6 @@ public class Colisão : MonoBehaviour
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
         {
             bloco = collision.gameObject;
-            bloquinhos = bloco.GetComponent<SpriteRenderer>(); 
-        }
-        if(collision.gameObject.CompareTag("Nol"))
-        {
-            bloquinhos.color = Color.black;
         }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
