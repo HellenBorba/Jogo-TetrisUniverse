@@ -5335,7 +5335,7 @@ MonoBehaviour:
   - {fileID: 32988458}
   - {fileID: 753333737}
   TodosBlocos:
-  - {fileID: 0}
+  - {fileID: 1399253364}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -17467,6 +17467,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96cd0266e91551245826d4febadef031, type: 3}
+--- !u!1 &1399253364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6244830307489019786, guid: 96cd0266e91551245826d4febadef031, type: 3}
+  m_PrefabInstance: {fileID: 1399253363}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1409567637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3547347499377696721, guid: 6c5a61f5fdfb31a4b95fe19336953769, type: 3}
