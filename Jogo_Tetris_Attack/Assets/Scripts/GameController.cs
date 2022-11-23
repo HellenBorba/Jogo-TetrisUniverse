@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject[] Bola, Colisoes, TodosBlocos;
-    public GameObject Sobe, trocapormim;
+    public GameObject[] Bola, Colisoes;
+    public GameObject Sobe;
     public Transform[] local;
     public Text[] texto;
-    public int points, pontosFase, tempoFase, tempoS, id;
+    public int points, pontosFase, tempoFase, id;
 
     private float recebe = 18.24f, xS = 0.0056f, timer5;
     private MouseRScript MR;

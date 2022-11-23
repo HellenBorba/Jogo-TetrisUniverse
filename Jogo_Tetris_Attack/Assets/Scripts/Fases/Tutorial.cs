@@ -13,21 +13,23 @@ public class Tutorial : MonoBehaviour
     void Start()
     {
         GM = GameObject.Find("GameController").GetComponent<GameController>();
+        texto.text = "Você pode trocar blocos utilizando o R";
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            StartCoroutine(paineis());
+        }
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     IEnumerator paineis()
     {
         yield return new WaitForSeconds(0f);
-        texto.text = "";
+        texto.text = "Agora tente fazer pontos, basta deixar 3 blocos iguais um ao lado do outro! Na vertical ou na horizontal";
         yield return new WaitForSeconds(4f);
         texto.text = "";
-        yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("Scene2");
     }
     //----------------------------------------------------------------------------------------------------------------------------------
 }

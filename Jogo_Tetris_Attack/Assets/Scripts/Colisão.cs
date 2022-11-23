@@ -43,10 +43,16 @@ public class Colisão : MonoBehaviour
             {
                 if (blocoEsquerda.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    GM.points += 3;
-                    Destroy(bloco.GetComponent<Colisão>().bloco);
-                    Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
-                    Destroy(blocoDireita.GetComponent<Colisão>().bloco);
+                    timer2 += Time.deltaTime;
+                    if (timer2 >= 1)
+                    {
+                        GM.points += 3;
+                        GameObject bloqueta = blocoEsquerda.GetComponent<Colisão>().bloco;
+                        GameObject bloqueta1 = blocoDireita.GetComponent<Colisão>().bloco;
+                        Destroy(bloco);
+                        Destroy(bloqueta);
+                        Destroy(bloqueta1);
+                    }
                 }
             }
         }
