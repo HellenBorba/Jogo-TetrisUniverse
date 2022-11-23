@@ -16,20 +16,23 @@ public class Colisão : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        #region Matches
         if (bloco && blocoCima && blocoBaixo)
         {
             if (blocoCima.GetComponent<Colisão>().bloco && blocoBaixo.GetComponent<Colisão>().bloco)
             {
                 if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoBaixo.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    Instantiate(GM.trocapormim, gameObject.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoBaixo.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoCima.transform.position, Quaternion.identity);
-                    Destroy(gameObject);
-                    Destroy(blocoCima);
-                    Destroy(blocoBaixo);
-                    GM.points += 3;         
+                    timer1 += Time.deltaTime;
+                    if (timer1 >= 1)
+                    {
+                        GM.points += 3;
+                        GameObject bloqueta = blocoCima.GetComponent<Colisão>().bloco;
+                        GameObject bloqueta1 = blocoBaixo.GetComponent<Colisão>().bloco;
+                        Destroy(bloco);
+                        Destroy(bloqueta);
+                        Destroy(bloqueta1);
+                        timer1 = 0;
+                    }
                 }
             }
         }
@@ -40,17 +43,13 @@ public class Colisão : MonoBehaviour
             {
                 if (blocoEsquerda.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    Instantiate(GM.trocapormim, gameObject.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoEsquerda.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoDireita.transform.position, Quaternion.identity);
-                    Destroy(gameObject);
-                    Destroy(blocoEsquerda);
-                    Destroy(blocoDireita);
                     GM.points += 3;
+                    Destroy(bloco.GetComponent<Colisão>().bloco);
+                    Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
+                    Destroy(blocoDireita.GetComponent<Colisão>().bloco);
                 }
             }
         }
-        #endregion
         //----------------------------------------------------------------------------------------------------------------------------------
         if (!bloco)
         {
