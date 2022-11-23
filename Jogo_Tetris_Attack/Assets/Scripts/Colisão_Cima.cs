@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Colisão : MonoBehaviour
+public class Colisão_Cima : MonoBehaviour
 {
     public float timer1, timer2, timer3, timer4, timer5;
     public GameObject blocoEsquerda, blocoBaixo, bloco, blocoCima, blocoDireita;
@@ -23,13 +23,13 @@ public class Colisão : MonoBehaviour
             {
                 if (blocoCima.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoBaixo.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    Instantiate(GM.trocapormim, gameObject.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoBaixo.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoCima.transform.position, Quaternion.identity);
-                    Destroy(gameObject);
-                    Destroy(blocoCima);
-                    Destroy(blocoBaixo);
-                    GM.points += 3;         
+                    Destroy(blocoCima.GetComponent<Colisão>().bloco);
+                    Destroy(bloco);
+                    Destroy(blocoBaixo.GetComponent<Colisão>().bloco);
+                    blocoCima.GetComponent<Colisão>().bloco = null;
+                    bloco.GetComponent<Colisão>().bloco = null;
+                    blocoBaixo.GetComponent<Colisão>().bloco = null;
+                    GM.points += 3;
                 }
             }
         }
@@ -40,12 +40,12 @@ public class Colisão : MonoBehaviour
             {
                 if (blocoEsquerda.GetComponent<Colisão>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colisão>().bloco.tag == bloco.tag)
                 {
-                    Instantiate(GM.trocapormim, gameObject.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoEsquerda.transform.position, Quaternion.identity);
-                    Instantiate(GM.trocapormim, blocoDireita.transform.position, Quaternion.identity);
-                    Destroy(gameObject);
-                    Destroy(blocoEsquerda);
-                    Destroy(blocoDireita);
+                    Destroy(blocoEsquerda.GetComponent<Colisão>().bloco);
+                    Destroy(bloco);
+                    Destroy(blocoDireita.GetComponent<Colisão>().bloco);
+                    blocoEsquerda.GetComponent<Colisão>().bloco = null;
+                    bloco.GetComponent<Colisão>().bloco = null;
+                    blocoDireita.GetComponent<Colisão>().bloco = null;
                     GM.points += 3;
                 }
             }

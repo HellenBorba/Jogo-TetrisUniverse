@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Colisıes_Baixo : MonoBehaviour
+public class Colis√£o_DE : MonoBehaviour
 {
     public float timer1, timer2, timer3, timer4, timer5;
-    public GameObject blocoEsquerda, bloco, blocoCima, blocoDireita;
+    public GameObject blocoBaixo, bloco, blocoCima;
 
     private GameController GM;
     //----------------------------------------------------------------------------------------------------------------------------------
@@ -16,30 +16,28 @@ public class Colisıes_Baixo : MonoBehaviour
     //----------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
-        #region Matches
-        if (bloco && blocoDireita && blocoEsquerda)
+        if (bloco && blocoCima && blocoBaixo)
         {
-            if (blocoEsquerda.GetComponent<Colis„o>().bloco && blocoDireita.GetComponent<Colis„o>().bloco)
+            if (blocoCima.GetComponent<Colis√£o>().bloco && blocoBaixo.GetComponent<Colis√£o>().bloco)
             {
-                if (blocoEsquerda.GetComponent<Colis„o>().bloco.tag == bloco.tag && blocoDireita.GetComponent<Colis„o>().bloco.tag == bloco.tag)
+                if (blocoCima.GetComponent<Colis√£o>().bloco.tag == bloco.tag && blocoBaixo.GetComponent<Colis√£o>().bloco.tag == bloco.tag)
                 {
                     GM.points += 3;
-                    gameObject.SetActive(false);                
+                    gameObject.SetActive(false);
                 }
             }
         }
-        #endregion
         //----------------------------------------------------------------------------------------------------------------------------------
-        if (!bloco)
+        if (!bloco.GetComponent<Colis√£o>().bloco)
         {
-            if (blocoCima.GetComponent<Colis„o>().bloco)
+            if (blocoCima.GetComponent<Colis√£o>().bloco)
             {
-                blocoCima.GetComponent<Colis„o>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
-                blocoCima.GetComponent<Colis„o>().bloco = null;
+                blocoCima.GetComponent<Colis√£o>().bloco.transform.position = new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z);
+                blocoCima.GetComponent<Colis√£o>().bloco = null;
             }
         }
     }
-        //----------------------------------------------------------------------------------------------------------------------------------
+    //----------------------------------------------------------------------------------------------------------------------------------
     public void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Blue") || (collision.gameObject.CompareTag("Purple") || (collision.gameObject.CompareTag("Green") || (collision.gameObject.CompareTag("Red") || (collision.gameObject.CompareTag("Yellow"))))))
