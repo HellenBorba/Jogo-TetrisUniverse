@@ -30,6 +30,7 @@ public class MenuGameController : MonoBehaviour
     public void Sair()
     {
         Application.Quit();
+        PlayerPrefs.SetInt("a", 0);
     }
     //----------------------------------------------------------------------------------------------------------------------------------
     public void Tutorial()

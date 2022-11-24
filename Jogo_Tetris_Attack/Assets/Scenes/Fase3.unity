@@ -4327,7 +4327,7 @@ MonoBehaviour:
   - {fileID: 102100878029955087}
   - {fileID: 102100878622717792}
   points: 0
-  pontosFase: 40
+  pontosFase: 30
   tempoFase: 3
   id: 0
 --- !u!4 &468055143
@@ -18238,7 +18238,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Pontos a fazer:
 
-    40'
+    30'
 --- !u!1 &102100878029955081
 GameObject:
   m_ObjectHideFlags: 0
