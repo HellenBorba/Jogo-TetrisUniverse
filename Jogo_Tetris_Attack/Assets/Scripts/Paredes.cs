@@ -30,11 +30,11 @@ public class Paredes : MonoBehaviour
     IEnumerator morango()
     {
         yield return new WaitForSeconds(0f);
-        GM.texto[2].text = "Os blocos alcançaram o final! Você perdeu";
+        GM.texto[1].text = "Os blocos alcançaram o final! Você perdeu!";
         yield return new WaitForSeconds(4f);
-        GM.texto[2].text = "";
+        GM.texto[1].text = "";
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Menu");
     }
     //----------------------------------------------------------------------------------------------------------------------------------
 }

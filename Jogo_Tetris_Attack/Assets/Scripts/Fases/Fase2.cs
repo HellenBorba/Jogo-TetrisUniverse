@@ -26,7 +26,7 @@ public class Fase2 : MonoBehaviour
     IEnumerator paineis()
     {
         yield return new WaitForSeconds(0f);
-        texto.text = "Parábens! você passou para a próxima fase";
+        texto.text = "Parábens! você passou para a próxima fase.";
         yield return new WaitForSeconds(4f);
         texto.text = "";
         yield return new WaitForSeconds(2f);

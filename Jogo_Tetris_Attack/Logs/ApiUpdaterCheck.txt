@@ -1608,3 +1608,23 @@ C# parse time         : -1ms
 candidates check time : -1ms
 console write time    : -1ms
 
+[api-updater (non-obsolete-error-filter)] 23/11/2022 23:59:28 : Starting C:/Users/jully/OneDrive/Área de Trabalho/Hellen/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 2437,1802ms
+moved types parse time: 101ms
+candidates parse time : 2ms
+C# parse time         : 1234ms
+candidates check time : 56ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 23/11/2022 23:59:51 : Starting C:/Users/jully/OneDrive/Área de Trabalho/Hellen/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 111,0059ms
+moved types parse time: 88ms
+candidates parse time : 2ms
+C# parse time         : 362ms
+candidates check time : 55ms
+console write time    : 1ms
+

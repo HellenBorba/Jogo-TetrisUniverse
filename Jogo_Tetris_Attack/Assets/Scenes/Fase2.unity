@@ -4316,94 +4316,7 @@ MonoBehaviour:
   - {fileID: 947925212}
   - {fileID: 32988458}
   - {fileID: 753333737}
-  TodosBlocos:
-  - {fileID: 1399253364}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   Sobe: {fileID: 1991841582}
-  trocapormim: {fileID: 7051047421766644361, guid: eaa15dd02bf3a834491be15cfeaeef34, type: 3}
   local:
   - {fileID: 0}
   - {fileID: 0}
@@ -4412,6 +4325,7 @@ MonoBehaviour:
   - {fileID: 0}
   texto:
   - {fileID: 102100878029955087}
+  - {fileID: 102100878622717792}
   points: 0
   pontosFase: 25
   tempoFase: 6
@@ -7472,7 +7386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &758919494
 Transform:
   m_ObjectHideFlags: 0
@@ -7497,11 +7411,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 09324699aeb8e4449a15d7bf890c92cc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 31d65dcccc0796440a2087c22ffc03a3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -8054,7 +7968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abe5e6e87f232da4b90364705d598376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num: 0
+  num: 1
 --- !u!1 &893395556
 GameObject:
   m_ObjectHideFlags: 0
@@ -10419,7 +10333,7 @@ SpriteRenderer:
   m_SortingLayerID: 872979247
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 1a7c5699f8a5e824585fbcec5a68ea48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10475,7 +10389,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
+    oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10837,7 +10751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7105, y: 0.17400001}
   m_AnchorMax: {x: 0.98875004, y: 0.53400004}
-  m_AnchoredPosition: {x: -5.5799866, y: 6.350006}
+  m_AnchoredPosition: {x: -5.579956, y: 6.3500366}
   m_SizeDelta: {x: 0.59002686, y: -2.980011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179761990
@@ -12515,7 +12429,7 @@ SpriteRenderer:
   m_SortingLayerID: 872979247
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 1a7c5699f8a5e824585fbcec5a68ea48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12571,7 +12485,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
+    oldSize: {x: 1.2, y: 1.2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -18241,7 +18155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.846}
   m_AnchorMax: {x: 0.26425004, y: 1}
-  m_AnchoredPosition: {x: -0.27001953, y: 1.1399841}
+  m_AnchoredPosition: {x: -0.27001953, y: 1.1400146}
   m_SizeDelta: {x: -0.539978, y: -2.2799988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &102100877970344217
@@ -18286,7 +18200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.71675014, y: 0.81600004}
   m_AnchorMax: {x: 0.94250005, y: 0.92}
-  m_AnchoredPosition: {x: -67.052, y: -53.8}
+  m_AnchoredPosition: {x: -67.052, y: -53.800003}
   m_SizeDelta: {x: 120.14, y: 51.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102100877970344223
@@ -18477,7 +18391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.011250001, y: 0.41200003}
   m_AnchorMax: {x: 0.2775, y: 0.61}
-  m_AnchoredPosition: {x: 0.7000122, y: 2.4000015}
+  m_AnchoredPosition: {x: 0.6999512, y: 2.399994}
   m_SizeDelta: {x: 0.65999985, y: -3.8399963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102100878622717792
@@ -18556,7 +18470,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.106000006, y: 0.035}
   m_AnchorMax: {x: 0.89748055, y: 0.7143562}
-  m_AnchoredPosition: {x: -0.33599854, y: -0.80000305}
+  m_AnchoredPosition: {x: -0.33599854, y: -0.8000183}
   m_SizeDelta: {x: 0.6647949, y: -3.217743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &102100878881866189
