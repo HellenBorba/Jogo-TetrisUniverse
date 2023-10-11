@@ -1,6 +1,9 @@
-# Jogo-tetrisattack
+# Projeto Jogo-tetrisUniverse
 
 Um projeto da escola, que tinha como objetivo refazer um jogo já existente, porém desta vez utilizando a Unity. Recriei o jogo Tetris Attack do Yoshi, colocando como nome "Tetris Universe", assim sendo o tema do jogo o universo.
+
+# TetrisAttack
+![esquema Lógico](TetrisAttack-1)
 
 # Tetris Universe
 ![esquema lógico](TetrisUniverse-1.png)
