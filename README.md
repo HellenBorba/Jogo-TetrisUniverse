@@ -6,16 +6,16 @@ Um projeto da escola, que tinha como objetivo refazer um jogo já existente, por
 ![esquema lógico](TetrisUniverse-1.png)
 
 # Menu
-![esquema lógico](TetrisAttack-Menu.png)
+![esquema lógico](TetrisUniverse-Menu.png)
 
 # Tutorial
-![esquema lógico](tetrisAttack-tutorial.png)
+![esquema lógico](TetrisUniverse-Tutorial.png)
 
 # Fase 1
-![esquema lógico](TetrisAttack-Fase1.png)
+![esquema lógico](TetrisUniverse-Fase1.png)
 
 # Fase 2
-![esquema lógico](TetrisAttack-fase2.png)
+![esquema lógico](TetrisUniverse-Fase2.png)
 
 # Fase 3
-![esquema lógico](TetrisAttack-fase3.png)
+![esquema lógico](TetrisUniverse-Fase3.png)
