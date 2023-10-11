@@ -5,17 +5,17 @@ Um projeto da escola, que tinha como objetivo refazer um jogo já existente, por
 # Tetris Universe
 ![esquema lógico](TetrisUniverse-1.png)
 
-#Menu
+# Menu
 ![esquema lógico](TetrisAttack-Menu.png)
 
-#Tutorial
-![esquema lógico](TetrisAttack-tutorial.png)
+# Tutorial
+![esquema lógico](tetrisAttack-tutorial.png)
 
-#Fase 1
+# Fase 1
 ![esquema lógico](TetrisAttack-Fase1.png)
 
-#Fase 2
+# Fase 2
 ![esquema lógico](TetrisAttack-fase2.png)
 
-#Fase 3
+# Fase 3
 ![esquema lógico](TetrisAttack-fase3.png)
