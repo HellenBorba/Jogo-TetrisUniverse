@@ -4,6 +4,7 @@ Um projeto da escola, que tinha como objetivo refazer um jogo já existente, por
 
 # Tetris Universe
 ![esquema lógico](TetrisUniverse-1.png)
+![esquema lógico](TetrisUniverse-2.png)
 
 # Menu
 ![esquema lógico](TetrisUniverse-Menu.png)
